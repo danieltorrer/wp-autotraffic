@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(".vacante-button").click(function(){$("#vacante-modal").modal()})});
