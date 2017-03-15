@@ -1,6 +1,10 @@
 <?php get_header(); ?>
   <!-- <main> -->
-
+  <script type="text/javascript">
+    $(document).ready(function (){
+      $('body').removeClass('no-scroll');
+    });
+  </script>
   <!--  contact cover starts -->
   <section class="slide contact-cover not-fixed">
     <div class="container">

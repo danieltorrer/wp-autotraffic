@@ -1,4 +1,9 @@
 <?php get_header(); ?>
+<script type="text/javascript">
+  $(document).ready(function (){
+    $('body').removeClass('no-scroll');
+  });
+</script>
 <!--  eficiencia starts -->
 <section class="slide not-fixed eficiencia valign">
   <div class="valign-item">

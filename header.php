@@ -8,18 +8,20 @@
 
   <?php wp_head(); ?>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendor.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/animate.min.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/clientes.css">
 
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/vendor.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/jquery.smoothState.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/plugins.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/wow.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/main.js"></script>
 
 </head>
 
 <?php if( is_front_page()){ ?>
-  <body class="no-scroll">
+  <body>
 <?php } else { ?>
   <body>
 <?php } ?>

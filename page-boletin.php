@@ -1,4 +1,9 @@
 <?php get_header(); ?>
+<script type="text/javascript">
+  $(document).ready(function (){
+    $('body').removeClass('no-scroll');
+  });
+</script>
   <!-- <main> -->
   <!--  Modal vacate starts -->
   <div id="vacante-modal" class="modal fade" tabindex="-1" role="dialog">

@@ -1,5 +1,9 @@
 <?php get_header(); ?>
-
+<script type="text/javascript">
+  $(document).ready(function (){
+    $('body').removeClass('no-scroll');
+  });
+</script>
 <!--  Modal noticia starts -->
 <?php include "modal-news-template.php" ?>
 <!--  Modal noticia ends -->

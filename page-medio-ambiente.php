@@ -1,4 +1,9 @@
 <?php get_header(); ?>
+<script type="text/javascript">
+  $(document).ready(function (){
+    $('body').removeClass('no-scroll');
+  });
+</script>
   <!--  eficiencia starts -->
   <section class="slide not-fixed ambiente valign">
     <div class="valign-item">
@@ -91,21 +96,21 @@
     <div class="stats-number-container">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4  wow fadeInUp">
             <div class="stats-number text-center">
               <h4 class="font-title movilidad-pink-text">1,008</h4>
               <p class="font-title">Vidas salvadas con <br>nuestros proyectos</p>
               <div class="line movilidad-line movilidad-pink line-margin"></div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4  wow fadeInUp">
             <div class="stats-number text-center">
               <h4 class="font-title movilidad-pink-text">-62%</h4>
               <p class="font-title">Menos muertes por <br> accidentes viales</p>
               <div class="line movilidad-line movilidad-pink line-margin"></div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4  wow fadeInUp">
             <div class="stats-number text-center">
               <h4 class="font-title movilidad-pink-text">5</h4>
               <p class="font-title">Estados con sistemas de <br> control de velocidad</p>
@@ -139,7 +144,7 @@
   <div class="container-fluid">
 
     <div class="row">
-      <div class="col-sm-6 no-space">
+      <div class="col-sm-6 no-space wow slideInLeft">
         <div class="solution-item">
           <div class="solution-img">
             <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/factory-b.jpg" alt="">
@@ -150,7 +155,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 no-space">
+      <div class="col-sm-6 no-space wow slideInRight">
         <div class="solution-item">
           <div class="solution-img">
             <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/biourban-b.jpg" alt="">
@@ -165,7 +170,7 @@ paneles solares que cpatura carbono y produce oxígeno</a>
     </div>
 
     <div class="row">
-      <div class="col-sm-4 no-space">
+      <div class="col-sm-4 no-space  wow slideInUp">
         <div class="solution-item small">
           <div class="solution-img">
             <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/farm-b.jpg" alt="">
@@ -177,7 +182,7 @@ paneles solares que cpatura carbono y produce oxígeno</a>
         </div>
       </div>
 
-      <div class="col-sm-4 no-space">
+      <div class="col-sm-4 no-space  wow slideInUp">
         <div class="solution-item small">
           <div class="solution-img">
             <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/gas-b.jpg" alt="">
@@ -189,7 +194,7 @@ paneles solares que cpatura carbono y produce oxígeno</a>
         </div>
       </div>
 
-      <div class="col-sm-4 no-space">
+      <div class="col-sm-4 no-space  wow slideInUp">
         <div class="solution-item small">
           <div class="solution-img">
             <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/chip-b.jpg" alt="">
@@ -203,7 +208,7 @@ paneles solares que cpatura carbono y produce oxígeno</a>
     </div>
 
     <div class="row">
-      <div class="col-sm-6 no-space">
+      <div class="col-sm-6 no-space  wow slideInLeft">
         <div class="solution-item">
 
           <div class="solution-img">
@@ -216,7 +221,7 @@ para llevar cultura y educación vial y sustentable a los niños.</a>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 no-space">
+      <div class="col-sm-6 no-space  wow slideInRight">
         <div class="solution-item">
 
           <div class="solution-img">

@@ -1,5 +1,9 @@
 <?php get_header(); ?>
-
+<script type="text/javascript">
+  $(document).ready(function (){
+    $('body').removeClass('no-scroll');
+  });
+</script>
   <!-- <main> -->
   <!--  seguridad starts -->
   <section class="slide not-fixed seguridad valign">
@@ -71,14 +75,14 @@
 
       <div class="container-fluid">
         <div class="row stats-seguridad-description">
-          <div class="col-sm-6">
+          <div class="col-sm-6 wow fadeInLeft">
             <div class="valign stats-quote">
               <div class="valign-item">
                 <h3 class="font-title">Es absolutamente necesario lograr <br> establecer "Cruceros seguros" para los <br> peatones, ciclistas y conductores</h3>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 wow fadeInRight">
             <div class="valign stats-list">
               <p class="font-title">Hemos desarrollado una solución de Multifotocontrol de faltas al reglamento, que permite detectar a través de fotografías las siguientes faltas al reglamento:</p>
               <ul>
@@ -97,19 +101,19 @@
       <div class="stats-number-container">
         <div class="container">
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow fadeInUp">
               <div class="stats-number text-center">
                 <h4 class="font-title">1,008</h4>
                 <p class="font-title">Vidas salvadas con <br>nuestros proyectos</p>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow fadeInUp">
               <div class="stats-number text-center">
                 <h4 class="font-title">-62%</h4>
                 <p class="font-title">Menos muertes por <br> accidentes viales</p>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow fadeInUp">
               <div class="stats-number text-center">
                 <h4 class="font-title">5</h4>
                 <p class="font-title">Estados con sistemas de <br> control de velocidad</p>
@@ -142,7 +146,7 @@
     <div class="container-fluid">
 
       <div class="row">
-        <div class="col-sm-6 no-space">
+        <div class="col-sm-6 no-space wow slideInLeft">
           <div class="solution-item">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/car-b.jpg" alt="">
@@ -153,7 +157,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 no-space">
+        <div class="col-sm-6 no-space wow slideInRight">
           <div class="solution-item">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/carril-b.jpg" alt="">
@@ -167,7 +171,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow slideInUp ">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/cinturon-b.jpg" alt="">
@@ -179,7 +183,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow slideInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/celular-b.jpg" alt="">
@@ -191,7 +195,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow slideInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/casco-b.jpg" alt="">
@@ -205,7 +209,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow slideInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/vuelta-b.jpg" alt="">
@@ -217,7 +221,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow slideInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/paso-b.jpg" alt="">
@@ -229,7 +233,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow slideInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/nino-b.jpg" alt="">
@@ -243,7 +247,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow slideInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/carril-ciclista-b.jpg" alt="">
@@ -255,7 +259,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow slideInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/tomar-b.jpg" alt="">
@@ -267,7 +271,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow slideInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/semaforo-b.jpg" alt="">
@@ -281,7 +285,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-6 no-space">
+        <div class="col-sm-6 no-space wow slideInLeft">
           <div class="solution-item">
 
             <div class="solution-img">
@@ -294,7 +298,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 no-space">
+        <div class="col-sm-6 no-space wow slideInRight">
           <div class="solution-item">
 
             <div class="solution-img">

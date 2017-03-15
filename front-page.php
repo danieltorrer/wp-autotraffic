@@ -53,10 +53,9 @@
 
       <!--  Movilidad starts -->
       <section class="z-15 skrollr-deck valign slide" id="movilidad" data-slide="1" style="transform: translateY(100%);">
-        <div class="zoom-image-1 hide"></div>
-        <div class="zoom-image-2 hide"></div>
-        <div class="zoom-image-3 hide"></div>
-        <div class="zoom-image zoom-image-1 zoom-animate" data-zoom="1"></div>
+        <div class="zoom-image zoom-image-1 zoom-animate"></div>
+        <div class="zoom-image zoom-image-2 hide-image zoom-animate"></div>
+        <div class="zoom-image zoom-image-3 hide-image zoom-animate"></div>
         <!-- <div class="zoom-image zoom-image-2" data-zoom="2"></div> -->
         <!-- <div class="zoom-image zoom-image-3" data-zoom="3"></div> -->
         <div class="valign-item">
@@ -212,8 +211,6 @@
       <!--  newsletter starts -->
       <?php include "newsletter-template.php" ?>
       <!--  newsletter ends -->
-
-
 
       <script src="<?php echo get_template_directory_uri(); ?>/scripts/home.js"></script>
       <script src="<?php echo get_template_directory_uri(); ?>/scripts/news.js"></script>

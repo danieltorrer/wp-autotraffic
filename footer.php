@@ -18,7 +18,7 @@ function addBlacklistClass() {
   });
 }
 
-function initMenu() {
+function initMenu() {  
   $('nav.menu-container').velocity({'translateY': '-130%'},{duration: 0});
 
   $('.menu-btn a').click( function(){
@@ -69,6 +69,8 @@ function initMenu() {
 
   $( function() { // Ready
 
+    new WOW().init();
+
     var settings = {
       anchors: 'a',
       blacklist: '.wp-link',
@@ -81,6 +83,7 @@ function initMenu() {
       onAfter: function($container) {
         addBlacklistClass();
         initMenu();
+        new WOW().init();
         $('body').removeClass('menu-opened');
         menuOpened = false;
 

@@ -1,4 +1,4 @@
-<section class="newsletter">
+<section class="newsletter  wow slideInUp">
   <div class="container valign">
     <div class="row valign-item">
       <div class="col-sm-6 col-sm-offset-3">

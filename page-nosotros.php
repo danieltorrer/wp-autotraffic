@@ -1,7 +1,11 @@
 <?php get_header(); ?>
-
+<script type="text/javascript">
+  $(document).ready(function (){
+    $('body').removeClass('no-scroll');
+  });
+</script>
 <!--  nosotros starts -->
-<section class="slide not-fixed nosotros valign">
+<section class="slide not-fixed nosotros valign ">
   <div class="valign-item">
     <div class="container">
       <div class="row">
@@ -32,7 +36,7 @@
 
 <!--  ideologia -->
 <section class="ideologia">
-  <div class="container">
+  <div class="container wow bounceInUp">
     <div class="row bulb-container">
       <div class="col-sm-3">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bulb-icon.png" alt="">
@@ -166,15 +170,15 @@
         </section>
         <section class="convenios">
           <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-6 aqua">
+            <div class="row ">
+              <div class="col-sm-6 aqua wow fadeInLeft">
                 <div class="valign convenio-item">
                   <div class="valign-item">
                     <h3>La Design for All Foundation es una entidad sin ánimo de lucro y de ámbito internacional fundada en 2001.</h3>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-6 wow fadeInRight">
                 <div class="valign convenio-item">
                   <div class="valign-item">
                     <img class="convenio-logo" src="<?php echo get_template_directory_uri(); ?>/images/design-4.png" alt="">
@@ -188,7 +192,7 @@
             </div>
 
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-sm-6 wow fadeInLeft">
                 <div class="valign convenio-item">
                   <div class="valign-item">
                     <img class="convenio-logo" src="<?php echo get_template_directory_uri(); ?>/images/buap.png" alt="">
@@ -197,7 +201,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-6 blue">
+                <div class="col-sm-6 blue wow fadeInRight">
                   <div class="valign convenio-item">
                     <div class="valign-item">
                       <h3>La BUAP es una institución de educación superior pública mexicana, autónoma y descentralizada.<h3>
@@ -207,14 +211,14 @@
                 </div>
 
                 <div class="row">
-                  <div class="col-sm-6 gray">
+                  <div class="col-sm-6 gray wow fadeInLeft">
                     <div class="valign convenio-item">
                       <div class="valign-item">
                         <h3>Apoyar la investigación científica, el desarrollo tecnológico, la formación de recursos humanos de alto nivel.<h3>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeInRight">
                       <div class="valign convenio-item">
                         <div class="valign-item">
                           <img class="convenio-logo" src="<?php echo get_template_directory_uri(); ?>/images/concyteq.jpg" alt="">
@@ -226,7 +230,7 @@
                     </div>
 
                     <div class="row">
-                      <div class="col-sm-6">
+                      <div class="col-sm-6 wow fadeInLeft">
                         <div class="valign convenio-item">
                           <div class="valign-item">
                             <img class="convenio-logo" src="<?php echo get_template_directory_uri(); ?>/images/anahuac.png" alt="">
@@ -235,7 +239,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-6 orange">
+                        <div class="col-sm-6 orange wow fadeInRight">
                           <div class="valign convenio-item">
                             <div class="valign-item">
                               <h3>La Universidad Anáhuac Puebla  pertenece a la congregación católica de los Legionarios de Cristo, fue fundada en 1964.<h3>
@@ -268,10 +272,10 @@
                     <section class="caminable">
                       <div class="container-fluid">
                         <div class="row">
-                          <div class="col-sm-3"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-1.jpg" alt=""> </div>
-                          <div class="col-sm-3"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-2.jpg" alt=""> </div>
-                          <div class="col-sm-3"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-3.jpg" alt=""> </div>
-                          <div class="col-sm-3"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-4.jpg" alt=""> </div>
+                          <div class="col-sm-3 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-1.jpg" alt=""> </div>
+                          <div class="col-sm-3 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-2.jpg" alt=""> </div>
+                          <div class="col-sm-3 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-3.jpg" alt=""> </div>
+                          <div class="col-sm-3 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-4.jpg" alt=""> </div>
                         </div>
                       </div>
                     </section>
@@ -284,7 +288,7 @@
                           <div class="col-sm-12">
                             <h3 class="movilidad-blue-text font-text">PIRÁMIDE DE <br> <span class="movilidad-blue-text font-text">movilidad</span></h3>
                           </div>
-                          <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/piramide.png" alt="piramide">
+                          <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/piramide.png" alt="piramide">
                         </div>
                       </div>
                     </section>
