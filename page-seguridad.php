@@ -9,7 +9,7 @@
   <section class="slide not-fixed seguridad valign">
     <div class="valign-item">
       <div class="container">
-        <div class="row">
+        <div class="row wow fadeIn">
           <div class="col-sm-4">
             <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt="">
             <h2 class="font-title">Seguridad</h2>
@@ -46,13 +46,13 @@
           </div>
           <div class="col-sm-7">
             <h3 class="movilidad-3-title font-text">
-              <span class="movilidad-3-number movilidad-green-text">1.0</span> Movilidad <br>
+              <span class="movilidad-3-number movilidad-green-text wow fadeInUp">1.0</span> Movilidad <br>
               <span>Segura</span>
             </h3>
 
             <div>
-              <p class="font-title">La Movilidad Segura debe establecerse en 5 segmentos que provocan los hechos viales con más graves consecuencias:</p>
-              <ul>
+              <p class="font-title wow fadeInUp">La Movilidad Segura debe establecerse en 5 segmentos que provocan los hechos viales con más graves consecuencias:</p>
+              <ul class="wow fadeInUp">
                 <li class="font-title">1. Cruceros Seguros</li>
                 <li class="font-title">2. Vias primarias con control de excesos de velocidad</li>
                 <li class="font-title">3. No uso del celular mientras se conduce</li>
@@ -66,7 +66,7 @@
 
       </div>
       <div class="animation">
-        <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/night-b.jpg" alt="">
+        <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/night-b.jpg" alt="">
       </div>
     </section>
     <!--  1.0 ends -->
@@ -351,19 +351,19 @@ para llevar cultura y educación vial y sustentable a los niños.</a>
   <section class="see-more">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6 no-space movilidad-blue bg-eficiencia">
+        <div class="col-sm-6 no-space movilidad-blue bg-eficiencia wow fadeInLeft">
           <div class="see-description">
             <div class="see-content">
               <h4 class="text-center">2.0 Eficiencia</h4>
-              <a href="#" class="button button-default button-movilidad-blue">Ver más</a>
+              <a href="<?php echo site_url(); ?>/eficiencia" class="button button-default button-movilidad-blue">Ver más</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 no-space movilidad-pink bg-medio">
+        <div class="col-sm-6 no-space movilidad-pink bg-medio wow fadeInRight">
           <div class="see-description">
             <div class="see-content">
               <h4 class="text-center">3.0 Medio Ambiente</h4>
-              <a href="#" class="button button-default button-movilidad-pink">Ver más</a>
+              <a href="<?php  echo site_url();  ?>/medio-ambiente" class="button button-default button-movilidad-pink">Ver más</a>
             </div>
           </div>
         </div>

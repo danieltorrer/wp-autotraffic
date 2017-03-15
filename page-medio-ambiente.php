@@ -53,18 +53,18 @@
 
           <div class="row">
 
-            <div class="col-sm-offset-2 col-sm-10">
+            <div class="col-sm-offset-2 col-sm-10 wow fadeInUp">
               <h3 class="font-text white-text">Estamos viviendo uno de los momento más difíciles en el entorno medioambiental.</h3>
               <br><br>
               <p class="font-title">La contaminación en nuestras ciudades ha superado cualquier expectativa y parece ya demasiado tarde para poder revertirlo, pero con la obtención de datos a través de sensores de gases y partículas contaminantes incorporando nuevamente el “Internet of Moving Things” (IoMT) podemos aislar los puntos críticos de concentración contaminante, y como estos reaccionan negativamente de acuerdo a condiciones meteorológicas, cantidad de vehículos automotores, tipo de vehículos automotores, y condiciones extraordinarias como marchas, accidentes, bloqueos, comercio, reparto de mercancías, todo esto por horarios y días determinados.</p>
               <br>
             </div>
 
-            <div class="col-sm-2">
+            <div class="col-sm-2 wow fadeInLeft">
               <img src="<?php echo get_template_directory_uri(); ?>/images/graph-icon.png" alt="">
             </div>
 
-            <div class="col-sm-10">
+            <div class="col-sm-10 wow fadeInUp">
               <p class="font-title">Los sensores medioambientales son capaces de detectar lo siguientes parámetros:</p>
               <ul>
                 <li class="font-title">1. Gases contaminantes</li>
@@ -85,7 +85,7 @@
 
     </div>
     <div class="animation">
-      <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/ange-b.jpg" alt="">
+      <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/ange-b.jpg" alt="">
     </div>
   </section>
   <!--  2.0 ends -->
@@ -249,7 +249,7 @@ movilidad urbana.</a>
 <section class="everything">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 wow fadeIn">
         <div class="valign everything-item everything-title">
           <div class="valign-item">
             <h4 class="font-text movilidad-pink-text">Todo <br><span class="movilidad-pink-text">comienza aquí</span></h4>
@@ -274,19 +274,19 @@ movilidad urbana.</a>
 <section class="see-more">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-6 no-space movilidad-green bg-seguridad">
+      <div class="col-sm-6 no-space movilidad-green bg-seguridad wow fadeInLeft">
         <div class="see-description">
           <div class="see-content">
             <h4 class="text-center">1.0 Seguridad</h4>
-            <a href="#" class="button button-default button-movilidad-green">Ver más</a>
+            <a href="<?php echo site_url(); ?>/seguridad" class="button button-default button-movilidad-green">Ver más</a>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 no-space movilidad-blue bg-eficiencia">
+      <div class="col-sm-6 no-space movilidad-blue bg-eficiencia wow fadeInRight">
         <div class="see-description">
           <div class="see-content">
             <h4 class="text-center">2.0 eficiencia</h4>
-            <a href="#" class="button button-default button-movilidad-blue">Ver más</a>
+            <a href="<?php echo site_url(); ?>/eficiencia" class="button button-default button-movilidad-blue">Ver más</a>
           </div>
         </div>
       </div>

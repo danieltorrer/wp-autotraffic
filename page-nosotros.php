@@ -142,10 +142,8 @@
           </div>
 
           <div class="container-fluid">
-
-
-            <div class="row">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/walkable.jpg" alt="" class="full-image">
+            <div class="row wow bounceInUp">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/walkable.jpg" alt="" class="full-image fixed-item">
             </div>
           </div>
         </section>

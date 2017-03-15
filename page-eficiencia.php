@@ -8,7 +8,7 @@
 <section class="slide not-fixed eficiencia valign">
   <div class="valign-item">
     <div class="container">
-      <div class="row">
+      <div class="row wow fadeIn">
         <div class="col-sm-4">
           <img src="<?php echo get_template_directory_uri(); ?>/images/hand-icon.png" alt="">
           <h2 class="font-title">eficiencia</h2>
@@ -46,14 +46,14 @@
             <div class="line full"></div>
           </div>
           <div class="col-sm-7">
-            <h3 class="movilidad-3-title font-text">
+            <h3 class="movilidad-3-title font-text wow fadeInUp">
               <span class="movilidad-3-number movilidad-blue-text">2.0</span> Movilidad <br>
               <span>Eficiente</span>
             </h3>
 
             <div>
-              <p class="font-title">Para poder hacer más eficiente el traslado de las personas en el entorno de la movilidad es necesario obtener datos de cómo se está llevando a cabo, para esto es necesario implementar una solución de “Internet of Moving Things” (IoMT) que permita obtener los siguientes datos:</p>
-              <ul>
+              <p class="font-title wow fadeInUp">Para poder hacer más eficiente el traslado de las personas en el entorno de la movilidad es necesario obtener datos de cómo se está llevando a cabo, para esto es necesario implementar una solución de “Internet of Moving Things” (IoMT) que permita obtener los siguientes datos:</p>
+              <ul class="wow fadeInUp">
                 <li class="font-title">1. Cantidad de vehículos circulando</li>
                 <li class="font-title">2. Promedios de velocidad</li>
                 <li class="font-title">3. Clasificación vehicular</li>
@@ -61,9 +61,9 @@
                 <li class="font-title">5. Conteo de bicicletas en circulación por carriles de ciclovía</li>
               </ul>
 
-              <h3 class="font-text white-text">Autotraffic en alianza con una de las empresas más importantes de GPS en el Mundo.</h3>
+              <h3 class="font-text white-text wow fadeInUp">Autotraffic en alianza con una de las empresas más importantes de GPS en el Mundo.</h3>
               <br>
-              <p>
+              <p class="wow fadeInUp">
                 Cuenta con una base de datos con registro de los dos últimos años de desplazamientos vehiculares en las principales ciudades del país, esta información es utilizada para realizar estudios de congestionamiento vial y de excesos de velocidad, de esta forma se pueden localizar las intersecciones y los puntos más críticos que deben ser intervenidos directamente.
                 De esta forma en todos nuestros puntos de Intersecciones Seguras, Eficientes y Medioambientales son instalados sensores de tráfico que recolectan todos estos parámetros de la movilidad que son transmitidos en tiempo real al Centro de Control y mostrados en nuestra plataforma única HORUS, la cual permite analizar de mejor manera como se mueven nuestras ciudades y de esta forma realizar una planeación estratégica eficiente e inteligente, esta plataforma forma parte de una solución SmartCity que simplifica la gestión de infraestructura y movilidad además de que justifica las inversiones en aras de lograr la mayor eficiencia en el desplazamiento de todos los actores que intervienen en las vías de nuestras urbes.
               </p>
@@ -73,7 +73,7 @@
         </div>
 
       </div>
-      <div class="animation">
+      <div class="animation wow fadeInUp">
         <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/buildings-b.jpg" alt="">
       </div>
     </section>
@@ -85,21 +85,21 @@
       <div class="stats-number-container">
         <div class="container">
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow fadeInUp">
               <div class="stats-number text-center">
                 <h4 class="font-title movilidad-blue-text">-89%</h4>
                 <p class="font-title">Menos incidentes <br>viales</p>
                 <div class="line movilidad-line movilidad-blue line-margin"></div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow fadeInUp">
               <div class="stats-number text-center">
                 <h4 class="font-title movilidad-blue-text">-62%</h4>
                 <p class="font-title">Menos muertes por <br> accidentes viales</p>
                 <div class="line movilidad-line movilidad-blue line-margin"></div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 wow fadeInUp">
               <div class="stats-number text-center">
                 <h4 class="font-title movilidad-blue-text">5</h4>
                 <p class="font-title">Estados con sistemas de <br> control de velocidad</p>
@@ -133,7 +133,7 @@
     <div class="container-fluid">
 
       <div class="row">
-        <div class="col-sm-6 no-space">
+        <div class="col-sm-6 no-space wow fadeInLeft">
           <div class="solution-item">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/camaras-b.jpg" alt="">
@@ -144,7 +144,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 no-space">
+        <div class="col-sm-6 no-space wow fadeInRight">
           <div class="solution-item">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/lead-b.jpg" alt="">
@@ -158,7 +158,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/seguridadvial-b.jpg" alt="">
@@ -170,7 +170,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/velocidad-b.jpg" alt="">
@@ -182,7 +182,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/speed-b.jpg" alt="">
@@ -196,7 +196,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/lifealert-b.jpg" alt="">
@@ -208,7 +208,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/otraffic-b.jpg" alt="">
@@ -220,7 +220,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/intervencion-b.jpg" alt="">
@@ -234,7 +234,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/interseccion-b.jpg" alt="">
@@ -247,7 +247,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/rive-b.jpg" alt="">
@@ -259,7 +259,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space">
+        <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/contaminacion-b.jpg" alt="">
@@ -273,7 +273,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-6 no-space">
+        <div class="col-sm-6 no-space wow fadeInLeft">
           <div class="solution-item">
 
             <div class="solution-img">
@@ -286,7 +286,7 @@ para llevar cultura y educación vial y sustentable a los niños.</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 no-space">
+        <div class="col-sm-6 no-space wow fadeInRight">
           <div class="solution-item">
 
             <div class="solution-img">
@@ -333,25 +333,25 @@ movilidad urbana.</a>
   </section>
 
   <!--  everything ends -->
-
+  <?php include 'newsletter-template.php'; ?>
   <!--  see more starts-->
 
   <section class="see-more">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6 no-space movilidad-green bg-seguridad">
+        <div class="col-sm-6 no-space movilidad-green bg-seguridad wow fadeInLeft">
           <div class="see-description">
             <div class="see-content">
               <h4 class="text-center">1.0 Seguridad</h4>
-              <a href="#" class="button button-default button-movilidad-green">Ver más</a>
+              <a href="<?php echo site_url(); ?>/seguridad" class="button button-default button-movilidad-green">Ver más</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 no-space movilidad-pink bg-medio">
+        <div class="col-sm-6 no-space movilidad-pink bg-medio wow fadeInRight">
           <div class="see-description">
             <div class="see-content">
               <h4 class="text-center">3.0 Medio Ambiente</h4>
-              <a href="#" class="button button-default button-movilidad-pink">Ver más</a>
+              <a href="<?php echo site_url();?>/medio-ambiente" class="button button-default button-movilidad-pink">Ver más</a>
             </div>
           </div>
         </div>

@@ -25,3 +25,11 @@ html {
     margin-top: 0px !important;
   }
 }
+
+.fixed-item {
+  position: fixed;
+}
+
+.two-eficiencia .moon-bg {
+    background: url(images/moon-b.jpg) no-repeat 50%;
+}

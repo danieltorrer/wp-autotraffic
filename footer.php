@@ -18,7 +18,7 @@ function addBlacklistClass() {
   });
 }
 
-function initMenu() {  
+function initMenu() {
   $('nav.menu-container').velocity({'translateY': '-130%'},{duration: 0});
 
   $('.menu-btn a').click( function(){
@@ -81,9 +81,6 @@ function initMenu() {
         }
       },
       onAfter: function($container) {
-        addBlacklistClass();
-        initMenu();
-        new WOW().init();
         $('body').removeClass('menu-opened');
         menuOpened = false;
 
@@ -98,7 +95,12 @@ function initMenu() {
           }, {
             duration: 280
           } );
+        } else{
+          $('body').scrollTop(0);
         }
+        addBlacklistClass();
+        initMenu();
+        new WOW().init();
         $container.removeClass( 'slide-out' );
 
       }
