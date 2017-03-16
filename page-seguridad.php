@@ -348,6 +348,11 @@ para llevar cultura y educación vial y sustentable a los niños.</a>
 
   <!--  see more starts-->
 
+  <div class="hide preload-images">
+    <img src="/images/movilidad-mini-b.jpg" alt="">
+    <img src="/images/medio-mini-b.jpg" alt="">
+    <img src="/images/seguridad-mini-b.jpg" alt="">
+  </div>
   <section class="see-more">
     <div class="container-fluid">
       <div class="row">

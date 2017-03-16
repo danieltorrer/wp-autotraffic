@@ -8,13 +8,11 @@
 <section class="slide not-fixed eficiencia valign">
   <div class="valign-item">
     <div class="container">
-      <div class="row wow fadeIn">
+      <div class="row">
         <div class="col-sm-4">
           <img src="<?php echo get_template_directory_uri(); ?>/images/hand-icon.png" alt="">
           <h2 class="font-title">eficiencia</h2>
-          <p class="font-title">Es absolutamente necesario lograr establecer <br>
-            “Cruceros Seguros” para los peatones, <br>
-            ciclistas y conductores.</p>
+          <p class="font-title">Autotraffic cuenta con  información  para <br> realizar estudios de congestionamiento vial <br>y de excesos de velocidad.</p>
           </div>
           <div class="col-sm-8">
 
@@ -335,6 +333,12 @@ movilidad urbana.</a>
   <!--  everything ends -->
   <?php include 'newsletter-template.php'; ?>
   <!--  see more starts-->
+
+<div class="hide preload-images">
+  <img src="/images/movilidad-mini-b.jpg" alt="">
+  <img src="/images/medio-mini-b.jpg" alt="">
+  <img src="/images/seguridad-mini-b.jpg" alt="">
+</div>
 
   <section class="see-more">
     <div class="container-fluid">

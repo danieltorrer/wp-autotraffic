@@ -33,3 +33,18 @@ html {
 .two-eficiencia .moon-bg {
     background: url(images/moon-b.jpg) no-repeat 50%;
 }
+
+
+#page {
+	-webkit-transition: -webkit-transform .35s, opacity .35s;
+	-ms-transition: -o-transform .35s, opacity .35s;
+	-o-transition: -o-transform .35s, opacity .35s;
+	transition: transform .35s, opacity .35s;
+}
+#page.slide-out  {
+	-webkit-transform: translate3d( 250px, 0px, 0 );
+	-ms-transform: translate3d( 250px, 0px, 0 );
+	-o-transform: translate3d( 250px, 0px, 0 );
+	transform: translate3d( 250px, 0px, 0 );
+	opacity: 0;
+}

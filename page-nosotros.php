@@ -36,13 +36,13 @@
 
 <!--  ideologia -->
 <section class="ideologia">
-  <div class="container wow bounceInUp">
+  <div class="container">
     <div class="row bulb-container">
-      <div class="col-sm-3">
+      <div class="col-sm-3 wow bounceInUp">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bulb-icon.png" alt="">
       </div>
     </div>
-    <div class="row news-title">
+    <div class="row news-title wow fadeInUp">
       <div class="col-sm-3">
         <div class="line full"></div>
       </div>
@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-8 col-sm-offset-2 text-justify">
+      <div class="col-sm-8 col-sm-offset-2 text-justify wow fadeInUp">
         <p class="font-title">Todo este tiempo hemos creído fielmente en lo que hacemos. Estamos covencidos de que cada idea y cada éxito es el resultado de mucho trabajo y constancia. Pero también es el     resultado de comprender al mundo y a quien lo camina. Todos los que nos levantamos día con día y nos trasladamos a distintos destinos sabemos que hay mucho por conocer.</p>
         <p class="font-title">Es así como nos manejamos. Es lo que nos mueve y lo queremos seguir haciendo. El mundo siempre debe ser un mejor lugar por recorrer.</p>
       </div>
@@ -143,7 +143,7 @@
 
           <div class="container-fluid">
             <div class="row wow bounceInUp">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/walkable.jpg" alt="" class="full-image fixed-item">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/walkable.jpg" alt="" class="full-image">
             </div>
           </div>
         </section>

@@ -14,7 +14,7 @@
             <div class="col-sm-12">
               <img src="<?php echo get_template_directory_uri(); ?>/images/phone-icon.png" alt="">
               <h2>Contáctanos</h2>
-              <p>¿Te gustaría hablar o comunicarte con <br> nosotros?</p>
+              <p> ¿Te gustaría comunicarte con <br> nosotros?</p>
             </div>
           </div>
         </div>

@@ -51,13 +51,19 @@ function initMenu() {
   });
 
   $('.item-sub-menu').click(function(){
+    var a = $(this);
     if(submenuOpened){
       $(this).next().velocity('slideUp', {
         duration: 100
       });
+
     } else {
+      $(a).parent().find('ul li.menu-item').velocity('transition.flipXIn', {
+          stagger: 70,
+          duration: 600
+      });
       $(this).next().velocity('slideDown', {
-        duration: 100
+        duration: 100,
       });
     }
 
@@ -75,7 +81,7 @@ function initMenu() {
       anchors: 'a',
       blacklist: '.wp-link',
       onStart: {
-        duration: 280,
+        duration: 480,
         render: function ( $container ) {
           $container.addClass( 'slide-out' );
         }
@@ -83,6 +89,7 @@ function initMenu() {
       onAfter: function($container) {
         $('body').removeClass('menu-opened');
         menuOpened = false;
+        submenuOpened = false;
 
         var $hash = $( window.location.hash );
 
@@ -93,7 +100,7 @@ function initMenu() {
           $( 'body, html' ).velocity( {
             scrollTop: ( offsetTop - 60 ),
           }, {
-            duration: 280
+            duration: 180
           } );
         } else{
           $('body').scrollTop(0);

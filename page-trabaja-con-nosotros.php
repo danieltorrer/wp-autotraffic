@@ -159,7 +159,7 @@
             <div class="perks"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Las mejores <br> instalaciones</p></div><!--
             --><div class="perks"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Ambiente <br> laboral óptimo</p></div><!--
           --><div class="perks"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Prestaciones <br> de ley</p></div><!--
-        --><div class="perks"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Las mejores <br> instalaciones</p></div>
+        --><div class="perks"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Proyección Profesional</p></div>
       </div>
     </div>
 

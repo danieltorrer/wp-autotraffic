@@ -245,6 +245,11 @@ movilidad urbana.</a>
 <?php include "book-template.php" ?>
 <!--  books ends-->
 
+<div class="hide preload-images">
+  <img src="/images/movilidad-mini-b.jpg" alt="">
+  <img src="/images/medio-mini-b.jpg" alt="">
+  <img src="/images/seguridad-mini-b.jpg" alt="">
+</div>
 <!--  everything starts -->
 <section class="everything">
   <div class="container">
