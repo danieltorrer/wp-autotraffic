@@ -13,8 +13,8 @@
         <div class="single-cover-content">
           <div class="row">
             <div class="col-sm-7 col-sm-offset-2">
-              <h2 class="font-text white-text"><?php the_title(); ?></h2>
-              <p class="single-date font-title white-text"><?php the_time('F j, Y'); ?> | Por Autotraffic</p>
+              <h2 class="font-text white-text wow fadeInUp"><?php the_title(); ?></h2>
+              <p class="single-date font-title white-text wow fadeInUp"><?php the_time('F j, Y'); ?> | Por Autotraffic</p>
             </div>
           </div>
         </div>
@@ -28,11 +28,11 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-7 col-sm-offset-2">
-          <div class="single-text">
+          <div class="single-text wow fadeInUp">
             <?php the_content(); ?>
           </div>
 
-          <div class="single-social">
+          <div class="single-social wow fadeInUp">
             <span>compartir</span>
             <img src="<?php echo get_template_directory_uri(); ?>/images/tw-icon.png" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/images/fb-icon.png" alt="">
@@ -83,7 +83,7 @@ $recent_posts = wp_get_recent_posts( $args, ARRAY_A );
               // var_dump($recent);
             ?>
 
-              <div class="related-item">
+              <div class="related-item wow fadeInUp">
                 <div class="solution-item">
                   <div class="solution-img">
                     <?php echo get_the_post_thumbnail( $recent['ID'], 'large' );?>

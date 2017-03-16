@@ -12,7 +12,7 @@
       </div>
 
       <div class="col-sm-2">
-        <a class="button button-default" href="#">Ver todos</a>
+        <a class="button button-default" href="<?php echo site_url() ?>/boletin">Ver todos</a>
       </div>
     </div>
 

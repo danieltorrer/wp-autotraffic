@@ -44,7 +44,7 @@ $(document).ready(function (){
           </div>
 
         </div>
-        
+
         <div class="vacante-form">
           <div class="row margin-90">
             <div class="col-sm-10 col-sm-offset-1">
@@ -147,20 +147,27 @@ $(document).ready(function (){
   <div class="container">
     <div class="row">
       <!--  -->
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+      <?php
+        $args = array(
+          'post_type' => 'post',
+        );
+        $the_query = new WP_Query( $args);
+      ?>
+      <?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
+      ?>
         <div class="related-item col-sm-6 wow fadeInUp">
           <div class="solution-item">
             <div class="solution-img">
-              <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/car-b.jpg" alt="">
+              <img class="full-image" src="<?php the_post_thumbnail_url('custom-size'); ?>" alt="">
             </div>
             <div class="solution-description">
               <h4 class="font-title">Noticias</span></h4>
               <div class="row">
                 <div class="col-sm-6">
-                  <a class="font-text single-extract" href="#">Exceso de velocidad, voluptatem neque vero.</a>
+                  <a class="font-text single-extract" href="<?php the_permalink();?>"><?php the_title(); ?></a>
                 </div>
                 <div class="col-sm-6 single-see-more">
-                  <a href="#" class="button button-primary button-red">+</a>
+                  <a href="<?php the_permalink();?>" class="button button-primary button-red">+</a>
                 </div>
               </div>
             </div>
@@ -170,47 +177,6 @@ $(document).ready(function (){
       <?php endwhile; else : ?>
         <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
       <?php endif; ?>
-
-
-      <!--  -->
-      <div class="related-item col-sm-6">
-        <div class="solution-item">
-          <div class="solution-img">
-            <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/car-b.jpg" alt="">
-          </div>
-          <div class="solution-description">
-            <h4 class="font-title">Noticias</span></h4>
-            <div class="row">
-              <div class="col-sm-6">
-                <a class="font-text single-extract" href="#">Exceso de velocidad, voluptatem neque vero.</a>
-              </div>
-              <div class="col-sm-6 single-see-more">
-                <a href="#" class="button button-primary button-red">+</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--  -->
-      <div class="related-item col-sm-6">
-        <div class="solution-item">
-          <div class="solution-img">
-            <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/car-b.jpg" alt="">
-          </div>
-          <div class="solution-description">
-            <h4 class="font-title">Noticias</span></h4>
-            <div class="row">
-              <div class="col-sm-6">
-                <a class="font-text single-extract" href="#">Exceso de velocidad, voluptatem neque vero.</a>
-              </div>
-              <div class="col-sm-6 single-see-more">
-                <a href="#" class="button button-primary button-red">+</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
 
 
     </div>

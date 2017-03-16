@@ -23,16 +23,16 @@
     <div class="scroll-body fixed">
 
       <!--  Home starts -->
-      <section id="home" class="z-10 home valign skrollr-deck slide fixed " data-slide="0">
+      <section id="home" class="z-10 home valign skrollr-deck slide fixed" data-slide="0">
         <div class="tilt-backup"></div>
-        <canvas id="nodes" data-tilt></canvas>
+        <canvas id="nodes" data-tilt class="wow fadeIn"></canvas>
         <div class="valign-item">
           <div class="container">
             <div class="row">
               <div class="col-sm-8 col-sm-offset-4">
                 <div class="text-left">
-                  <p><img class="logo-icon" src="<?php echo get_template_directory_uri(); ?>/images/logo-icon.png" alt=""></p>
-                  <h2>Movilidad <br> <span class="font-title">segura, eficiente y sustentable</span></h2>
+                  <p><img class="logo-icon wow fadeIn" src="<?php echo get_template_directory_uri(); ?>/images/logo-icon.png" alt=""></p>
+                  <h2 class="wow fadeIn">Movilidad <br> <span class="font-title">segura, eficiente y sustentable</span></h2>
                 </div>
               </div>
             </div>
