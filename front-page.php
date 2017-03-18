@@ -16,6 +16,13 @@
 <!--  icons preload -->
 <div class="hide">
   <img class="bike-icon" src="<?php echo get_template_directory_uri(); ?>/images/bike-icon.png" alt="">
+<img src="<?php echo get_template_directory_uri(); ?>/images/bike-icon.png" alt="" class="bike-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/network-icon.png" alt="" class="network-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/bus-icon.png" alt="" class="bus-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/car-icon.png" alt="" class="car-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/cel-icon.png" alt="" class="cel-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/laptop-icon.png" alt="" class="laptop-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/head-icon.png" alt="" class="head-icon">
 </div>
 <!--  icons preload-->
 
@@ -24,7 +31,7 @@
 
   <!--  Home starts -->
   <section id="home" class="z-10 home valign skrollr-deck slide fixed" data-slide="0">
-    <div class="tilt-backup gradient-1"></div>
+    <div class="tilt-backup gradient-<?php echo( (rand(1,10)%3) + 1)?>"></div>
     <canvas id="nodes" data-tilt data-tilt-reset="false" data-tilt-max="20"  data-tilt-perspective="1000" data-tilt-scale="1.2"></canvas>
     <div class="valign-item">
       <div class="container">
@@ -73,7 +80,7 @@
               <p class="font-title">Seguridad</p>
 
               <div class="movilidad-descripcion">
-                <a class="button button-primary button-animated" href="seguridad.html">+</a>
+                <a class="button button-primary button-animated" href="<?php echo site_url()?>/seguridad">+</a>
               </div>
             </div>
 
@@ -86,7 +93,7 @@
               <p class="font-title">eficiencia</p>
 
               <div class="movilidad-descripcion">
-                <a class="button button-primary button-animated" href="eficiencia.html">+</a>
+                <a class="button button-primary button-animated" href="<?php echo site_url()?>/eficiencia">+</a>
               </div>
             </div>
 
@@ -99,7 +106,7 @@
               <p class="font-title">Medio ambiente</p>
 
               <div class="movilidad-descripcion">
-                <a class="button button-primary button-animated" href="medio-ambiente.html">+</a>
+                <a class="button button-primary button-animated" href="<?php echo site_url()?>/medio-ambiente">+</a>
               </div>
             </div>
 
@@ -120,9 +127,10 @@
         <div class="row">
           <div class="col-sm-6 col-sm-offset-3">
             <div class="text-left">
-              <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/world.png" alt="">
-              </div>
+              <div class="gif-overlay">
+                    <img src="<?php echo get_template_directory_uri()?>/images/mundo.gif" alt="" class="mundo-gif">
+                    <h4>Trazando un <br> mejor camino</h4>
+                  </div>
               <div class="line line-margin"></div>
               <h4 class="font-text">LíDER en soluciones de <br>movilidad urbana </h4>
               <p>

@@ -145,10 +145,10 @@
     <div class="valign-item">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm-12 wow fadeInUp">
             <h3 class="font-text text-center white-text">Trabaja con nosotros</h3>
           </div>
-          <div class="col-sm-6 col-sm-offset-3">
+          <div class="col-sm-6 col-sm-offset-3 wow fadeInUp">
             <p class="font-text text-center white-text">
               En Autotraffic nos preocupamos por el bienestar no sólo físico, sino mental, <br>
               espiritual, familiar de nuestra gente. Conoce las oportunidades y beneficios que <br>
@@ -156,10 +156,10 @@
             </p>
           </div>
           <div class="col-sm-12">
-            <div class="perks"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Las mejores <br> instalaciones</p></div><!--
-            --><div class="perks"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Ambiente <br> laboral óptimo</p></div><!--
-          --><div class="perks"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Prestaciones <br> de ley</p></div><!--
-        --><div class="perks"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Proyección Profesional</p></div>
+            <div class="perks wow fadeInUp"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Las mejores <br> instalaciones</p></div><!--
+            --><div class="perks wow fadeInUp"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Ambiente <br> laboral óptimo</p></div><!--
+          --><div class="perks wow fadeInUp"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Prestaciones <br> de ley</p></div><!--
+        --><div class="perks wow fadeInUp"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Proyección Profesional</p></div>
       </div>
     </div>
 
@@ -172,11 +172,11 @@
 <!--  vacantes starts -->
 <section class="vacantes">
   <div class="container">
-    <div class="row news-title">
+    <div class="row news-title wow fadeInUp">
       <div class="col-sm-3">
         <div class="line full"></div>
       </div>
-      <div class="col-sm-6 text-left">
+      <div class="col-sm-6 text-left wow fadeInUp">
         <h2 class="font-text"><span>Vacantes</span> disponibles</h2>
         <h4 class="font-text">Íntegrate <span class="white-text">a nuestro equipo</span></h4>
       </div>
@@ -185,136 +185,37 @@
     <div class="row margin-90">
 
       <!-- Vacante item starts -->
-      <div class="col-sm-6">
+      <?php
+        $args = array(
+          'post_type' => 'vacante',
+        );
+        $the_query = new WP_Query( $args);
+      ?>
+      <?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
+      ?>
+
+      <div class="col-sm-6 wow fadeInUp">
 
         <div class="vacante-item">
           <div class="row valign">
 
             <div class="col-sm-8 valign-item col-sm-offset-1">
               <span class="decorator"></span>
-              <h5 class="font-text">Subdirector de <br>recursos humanos</h5>
+              <h5 class="font-text"> <?php the_title(); ?> </h5>
               <div class="vacante-info">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon.png" alt="">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon-w.png" alt="">
-                <p>Tiempo completo</p>
+                <p><?php echo get('tiempo'); ?></p>
               </div>
             </div>
             <div class="col-sm-3">
-              <button class="vacante-button button button-primary button-animated button-white">+</button>
+              <a class="vacante-button button button-primary button-animated button-white">+</a>
             </div>
           </div>
         </div>
       </div>
-      <!--  Vacante ends -->
-      <!-- Vacante item starts -->
-      <div class="col-sm-6">
-
-        <div class="vacante-item">
-          <div class="row valign">
-
-            <div class="col-sm-8 valign-item col-sm-offset-1">
-              <span class="decorator"></span>
-              <h5 class="font-text">Subdirector de <br>recursos humanos</h5>
-              <div class="vacante-info">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon.png" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon-w.png" alt="">
-                <p>Tiempo completo</p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <button class="vacante-button button button-primary button-animated button-white">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--  Vacante ends -->
-      <!-- Vacante item starts -->
-      <div class="col-sm-6">
-
-        <div class="vacante-item">
-          <div class="row valign">
-
-            <div class="col-sm-8 valign-item col-sm-offset-1">
-              <span class="decorator"></span>
-              <h5 class="font-text">Subdirector de <br>recursos humanos</h5>
-              <div class="vacante-info">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon.png" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon-w.png" alt="">
-                <p>Tiempo completo</p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <button class="vacante-button button button-primary button-animated button-white">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--  Vacante ends -->
-      <!-- Vacante item starts -->
-      <div class="col-sm-6">
-
-        <div class="vacante-item">
-          <div class="row valign">
-
-            <div class="col-sm-8 valign-item col-sm-offset-1">
-              <span class="decorator"></span>
-              <h5 class="font-text">Subdirector de <br>recursos humanos</h5>
-              <div class="vacante-info">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon.png" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon-w.png" alt="">
-                <p>Tiempo completo</p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <button class="vacante-button button button-primary button-animated button-white">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--  Vacante ends -->
-      <!-- Vacante item starts -->
-      <div class="col-sm-6">
-
-        <div class="vacante-item">
-          <div class="row valign">
-
-            <div class="col-sm-8 valign-item col-sm-offset-1">
-              <span class="decorator"></span>
-              <h5 class="font-text">Subdirector de <br>recursos humanos</h5>
-              <div class="vacante-info">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon.png" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon-w.png" alt="">
-                <p>Tiempo completo</p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <button class="vacante-button button button-primary button-animated button-white">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--  Vacante ends -->
-      <!-- Vacante item starts -->
-      <div class="col-sm-6">
-
-        <div class="vacante-item">
-          <div class="row valign">
-
-            <div class="col-sm-8 valign-item col-sm-offset-1">
-              <span class="decorator"></span>
-              <h5 class="font-text">Subdirector de <br>recursos humanos</h5>
-              <div class="vacante-info">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon.png" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/clock-icon-w.png" alt="">
-                <p>Tiempo completo</p>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <button class="vacante-button button button-primary button-animated button-white">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
+    <?php endwhile; else : ?>
+    <?php endif; ?>
       <!--  Vacante ends -->
 
     </div>

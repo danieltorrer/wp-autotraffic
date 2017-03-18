@@ -3,13 +3,20 @@
       <div class="row">
         <div class="col-sm-4">
           <ul class="links">
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Movilidad 3.0</li>
-            <li>Clientes</li>
-            <li>Boletín</li>
-            <li>Contacto</li>
-            <li>Trabaja con nosotros</li>
+            <li><a href="<?php echo site_url();?>">Inicio</a></li>
+            <li><a href="<?php echo site_url();?>/nosotros">Nosotros</a></li>
+            <li>
+              Movilidad 3.0
+              <ul class="footer-submenu">
+                <li><a href="<?php echo site_url();?>/seguridad">Seguridad</a></li>
+                <li><a href="<?php echo site_url();?>/eficiencia">Eficiencia</a></li>
+                <li><a href="<?php echo site_url();?>/medio-ambiente">Medio Ambiente</a></li>
+              </ul>
+            </li>
+            <li><a href="<?php echo site_url();?>/clientes">Clientes</a></li>
+            <li><a href="<?php echo site_url();?>/boletin">Boletín</a></li>
+            <li><a href="<?php echo site_url();?>/contacto">Contacto</a></li>
+            <li><a href="<?php echo site_url();?>/trabaja-con-nosotros">Trabaja con nosotros</a></li>
           </ul>
         </div>
         <div class="col-md-4"></div>

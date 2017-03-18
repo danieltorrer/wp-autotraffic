@@ -1,3 +1,5 @@
+
+
 <div id="news" class="news skrollr-deck slide not-fixed">
 
   <div class="container">
@@ -17,45 +19,76 @@
     </div>
 
     <div class="row news-container">
+      <?php
+        $args = array(
+          'post_type' => 'post',
+          'posts_per_page' => '5'
+        );
+        $the_query = new WP_Query( $args);
+        $cont = 0;
+      ?>
+      <?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
+      ?>
+      <?php if($cont == 0) {?>
       <div class="col-sm-5 news-item medium-item wow fadeInLeft">
         <div>
           <h5 class="font-title">Noticias</h5>
-          <p>Lorem ipsum quasi repellat ipsam.</p>
+          <p><?php the_title(); ?></p>
         </div>
-        <a href="#" class="news-button button button-primary button-red button-animated">+</a>
+        <a href="#" class="news-button wp-link button button-primary button-red button-animated" data-id="<?php the_ID();?>">+</a>
 
       </div>
+      <?php } ?>
 
-      <div class="col-sm-7">
-        <div class="row">
+      <?php if($cont == 1) {?>
+        <div class="col-sm-7">
+          <div class="row">
 
           <div class="col-sm-12 news-item small-item wow fadeInRight">
             <div>
               <h5 class="font-title">Noticias</h5>
-              <p>Lorem ipsum! Consequuntur rerum, deserunt.</p>
-              <a href="#" class="news-button button button-primary button-red button-animated">+</a>
+              <p><?php the_title(); ?></p>
+              <a href="#" class="news-button wp-link button button-primary button-red button-animated" data-id="<?php the_ID();?>">+</a>
             </div>
           </div>
 
+        <?php } ?>
+
+          <?php if($cont == 2) {?>
           <div class="col-sm-6 news-item small-item no-bg wow fadeInUp">
             <div>
               <h5 class="font-title">Noticias</h5>
-              <p>Lorem ipsum, quae accusamus officia.</p>
-              <a href="#" class="news-button button button-primary button-red button-animated button-white">+</a>
+              <p><?php the_title(); ?></p>
+              <a href="#" class="news-button wp-link button button-primary button-red button-animated button-white" data-id="<?php the_ID();?>">+</a>
             </div>
           </div>
 
+          <?php } ?>
+
+          <?php if($cont == 3) {?>
           <div class="col-sm-6 news-item small-item no-bg no-bg-white  wow fadeInUp">
             <div>
               <h5 class="font-title">Noticias</h5>
-              <p>Lorem ipsum Unde eligendi, molestias deserunt quia.</p>
-              <a href="#" class="news-button button button-primary button-red button-animated">+</a>
+              <p><?php the_title(); ?></p>
+              <a href="#" class="news-button wp-link button button-primary button-red button-animated" data-id="<?php the_ID();?>">+</a>
             </div>
           </div>
 
         </div>
       </div>
+      <?php } ?>
+
+      <?php $cont++; ?>
+
+      <?php endwhile; else : ?>
+      <?php endif; ?>
     </div>
   </div>
 
 </div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    //Imprimir los 4 modales?
+  });
+</script>

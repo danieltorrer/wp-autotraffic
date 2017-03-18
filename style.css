@@ -48,3 +48,14 @@ html {
 	transform: translate3d( 250px, 0px, 0 );
 	opacity: 0;
 }
+
+.footer-submenu {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.vacante-form input[type=email],
+.vacante-form input[type=text],
+.vacante-form textarea {
+  color: #333;
+}

@@ -275,6 +275,11 @@ movilidad urbana.</a>
 <!--  everything ends -->
 
 <!--  see more starts-->
+<div class="hide preload-images">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/movilidad-mini-b.jpg" alt="">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/medio-mini-b.jpg" alt="">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/seguridad-mini-b.jpg" alt="">
+</div>
 
 <section class="see-more">
   <div class="container-fluid">
