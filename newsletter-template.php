@@ -1,7 +1,7 @@
 <section class="newsletter">
   <div class="container valign">
     <div class="row valign-item">
-      <div class="col-sm-6 col-sm-offset-3">
+      <div class="col-sm-6 col-sm-offset-3 col-xs-12">
         <div class="text-center">
           <h3 class="font-title white-text">boletín de noticias</h3>
           <p class="font-title white-text">¿Te gustaría recibir información de movilidad sustentable? ¡Inscríbete!</p>

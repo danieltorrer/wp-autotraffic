@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<nav class="nav-home" aria-hidden="true">
+<nav class="nav-home  hidden-sm hidden-xs" aria-hidden="true">
   <ul>
     <li data-slide="0" class="active" data-href="#home"><span>Home</span></li>
     <li data-slide="1" data-href="#movilidad"><span>Movilidad</span></li>
@@ -79,7 +79,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt="">
               <p class="font-title">Seguridad</p>
 
-              <div class="movilidad-descripcion">
+              <div class="movilidad-descripcion hidden-sm hidden-xs">
                 <a class="button button-primary button-animated" href="<?php echo site_url()?>/seguridad">+</a>
               </div>
             </div>
@@ -92,7 +92,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/images/hand-icon.png" alt="">
               <p class="font-title">eficiencia</p>
 
-              <div class="movilidad-descripcion">
+              <div class="movilidad-descripcion hidden-sm hidden-xs">
                 <a class="button button-primary button-animated" href="<?php echo site_url()?>/eficiencia">+</a>
               </div>
             </div>
@@ -105,7 +105,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/images/leaf-icon.png" alt="">
               <p class="font-title">Medio ambiente</p>
 
-              <div class="movilidad-descripcion">
+              <div class="movilidad-descripcion hidden-sm hidden-xs">
                 <a class="button button-primary button-animated" href="<?php echo site_url()?>/medio-ambiente">+</a>
               </div>
             </div>

@@ -20,7 +20,7 @@ $(document).ready(function (){
       <div class="modal-body">
 
         <div class="row cliente-logo">
-          <div class="col-sm-4 col-sm-offset-1">
+          <div class="col-sm-4 col-sm-offset-1 col-xs-5">
             <div class="valign">
               <div class="valign-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/cdmx-i.jpg" alt="">
@@ -39,33 +39,33 @@ $(document).ready(function (){
         <div class="cliente-content">
 
           <div class="row cliente-solucion">
-            <div class="col-sm-1 col-sm-offset-1">
+            <div class="col-sm-1 col-sm-offset-1 col-xs-4">
               <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon-red.png" alt="">
             </div>
 
-            <div class="col-sm-3 col-sm-offset-1">
+            <div class="col-sm-3 col-sm-offset-1 col-xs-8">
               <h4 class="font-title">Solucion</h4>
               <p class="font-title">Multi-infracción</p>
             </div>
           </div>
 
           <div class="row cliente-periodo">
-            <div class="col-sm-1 col-sm-offset-1">
+            <div class="col-sm-1 col-sm-offset-1 col-xs-4">
               <img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon-red.png" alt="">
             </div>
 
-            <div class="col-sm-3 col-sm-offset-1">
+            <div class="col-sm-3 col-sm-offset-1 col-xs-8">
               <h4 class="font-title">PERIÓDO</h4>
               <p class="font-title">Multi-infracción</p>
             </div>
           </div>
 
           <div class="row cliente-stats">
-            <div class="col-sm-1 col-sm-offset-1">
+            <div class="col-sm-1 col-sm-offset-1 col-xs-4">
               <img src="<?php echo get_template_directory_uri(); ?>/images/graph-icon-red.png" alt="">
             </div>
 
-            <div class="col-sm-3 col-sm-offset-1">
+            <div class="col-sm-3 col-sm-offset-1 col-xs-8">
               <h4 class="font-title">REDUCCIÓN DE MUERTES Y/O ACCIDENTES VIALES</h4>
               <p class="font-title">Multi-infracción</p>
             </div>

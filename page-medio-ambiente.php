@@ -48,7 +48,8 @@
         <div class="col-sm-9">
           <h3 class="movilidad-3-title font-text">
             <span class="movilidad-3-number movilidad-pink-text">3.0</span> Movilidad <br>
-            <span>medioambiental</span>
+            <span class="hidden-xs hidden-sm">medioambiental</span>
+            <span class="hidde-md hidden-lg">medio ambiental</span>
           </h3>
 
           <div class="row">
@@ -85,7 +86,10 @@
 
     </div>
     <div class="animation">
-      <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/ange-b.jpg" alt="">
+      <img class="nube-1 hidden-sm hidden-xs" src="images/nube1.png" alt="">
+      <img class="nube-2 hidden-sm hidden-xs" src="images/nube2.png" alt="">
+      <img class="nube-3 hidden-sm hidden-xs" src="images/nube2.png" alt="">
+      <img class="full-image" src="images/ange-b.jpg" alt="">
     </div>
   </section>
   <!--  2.0 ends -->
@@ -162,7 +166,7 @@
           </div>
           <div class="solution-description">
             <h4>Biourban <br> <span>Concepto vanguardista inspirado en la naturaleza</span></h4>
-            <a href="#">Sistema urbano purificador de aire autosustentable por medios de
+            <a href="#" class="hidden-xs hidde-sm">Sistema urbano purificador de aire autosustentable por medios de
 paneles solares que cpatura carbono y produce oxígeno</a>
           </div>
         </div>
