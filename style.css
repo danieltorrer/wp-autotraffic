@@ -59,3 +59,7 @@ html {
 .vacante-form textarea {
   color: #333;
 }
+
+.slick-track {
+  background: #ffffff;
+}

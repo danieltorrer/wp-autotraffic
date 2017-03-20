@@ -4,6 +4,9 @@
     $('body').removeClass('no-scroll');
   });
 </script>
+<script src="<?php echo get_template_directory_uri()?>/scripts/ambiente.js">
+
+</script>
   <!--  eficiencia starts -->
   <section class="slide not-fixed ambiente valign">
     <div class="valign-item">
@@ -86,10 +89,10 @@
 
     </div>
     <div class="animation">
-      <img class="nube-1 hidden-sm hidden-xs" src="images/nube1.png" alt="">
-      <img class="nube-2 hidden-sm hidden-xs" src="images/nube2.png" alt="">
-      <img class="nube-3 hidden-sm hidden-xs" src="images/nube2.png" alt="">
-      <img class="full-image" src="images/ange-b.jpg" alt="">
+      <img class="nube-1 hidden-sm hidden-xs" src="<?php echo get_template_directory_uri()?>/images/nube1.png" alt="">
+      <img class="nube-2 hidden-sm hidden-xs" src="<?php echo get_template_directory_uri()?>/images/nube2.png" alt="">
+      <img class="nube-3 hidden-sm hidden-xs" src="<?php echo get_template_directory_uri()?>/images/nube2.png" alt="">
+      <img class="full-image" src="<?php echo get_template_directory_uri()?>/images/ange-b.jpg" alt="">
     </div>
   </section>
   <!--  2.0 ends -->
@@ -250,9 +253,9 @@ movilidad urbana.</a>
 <!--  books ends-->
 
 <div class="hide preload-images">
-  <img src="/images/movilidad-mini-b.jpg" alt="">
-  <img src="/images/medio-mini-b.jpg" alt="">
-  <img src="/images/seguridad-mini-b.jpg" alt="">
+  <img src="<?php echo get_template_directory_uri();?>/images/movilidad-mini-b.jpg" alt="">
+  <img src="<?php echo get_template_directory_uri();?>/images/medio-mini-b.jpg" alt="">
+  <img src="<?php echo get_template_directory_uri();?>/images/seguridad-mini-b.jpg" alt="">
 </div>
 <!--  everything starts -->
 <section class="everything">

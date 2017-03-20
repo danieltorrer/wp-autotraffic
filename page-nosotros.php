@@ -181,7 +181,7 @@
               <div class="col-xs-12 col-sm-6">
                 <div class="valign convenio-item">
                   <div class="valign-item">
-                    <img class="convenio-logo" src="<?php get_template_directory_uri()?>/images/design-4.png" alt="">
+                    <img class="convenio-logo" src="<?php echo get_template_directory_uri()?>/images/design-4.png" alt="">
                     <p class="font-title">El Diseño para Todos (Design for All) es la intervención sobre entornos, productos y servicios con la finalidad de que todas las personas, incluidas las generaciones futuras, independientemente de la edad, el género, las capacidades o el bagaje cultural, puedan disfrutar participando en la construcción de nuestra sociedad en igualdad de condiciones.
                       Autoraffic tiene el honor de formar parte de esta fundación y juntos poder generar ideas y soluciones para el beneficio de toda la sociedad. Esta alianza se formalizó en Febrero de 2017.
                     </p>
@@ -202,7 +202,7 @@
               <div class="col-xs-12 col-sm-6">
                 <div class="valign convenio-item">
                   <div class="valign-item">
-                    <img class="convenio-logo" src="<?php get_template_directory_uri()?>/images/buap.png" alt="">
+                    <img class="convenio-logo" src="<?php echo get_template_directory_uri()?>/images/buap.png" alt="">
                     <p class="font-title">La Benemérita Universidad Autónoma de Puebla, cuyas raíces se remontan al siglo XVI, constituye un gran pilar de la educación superior y la investigación científica en la región, y ocupa un destacado sitio entre las universidades públicas del país, gracias al esfuerzo conjunto de todos los miembros de la institución.<p>
                     <p class="blue-text">Autoraffic tiene la fortuna de tener convenio con esta prestigiosa universidad.</p>
                   </div>
@@ -228,7 +228,7 @@
                 <div class="col-xs-12 col-sm-6">
                   <div class="valign convenio-item">
                     <div class="valign-item">
-                      <img class="convenio-logo" src="<?php get_template_directory_uri()?>/images/concyteq.jpg" alt="">
+                      <img class="convenio-logo" src="<?php echo get_template_directory_uri()?>/images/concyteq.jpg" alt="">
                       <p class="font-title"> En el mes de diciembre del año 1986, fue creado el Consejo de Ciencia y Tecnología del Estado de Querétaro (CONCYTEQ) como un organismo público descentralizado y personalidad jurídica y patrimonio propio, con la finalidad de asesorar y auxiliar al Ejecutivo estatal en la fijación, instrumentación, ejecución y evaluación de políticas científicas y tecnológicas.<p>
                         <p class="gray-text">Convenio general de colaboración para "El fortalecimiento de capacidades, desarrollo de datos locales y aseguramiento de la calidad de los proyectos de investigación en materia de movilidad sustentable".</p>
                       </div>
@@ -247,7 +247,7 @@
                   <div class="col-xs-12 col-sm-6">
                     <div class="valign convenio-item">
                       <div class="valign-item">
-                        <img class="convenio-logo" src="<?php get_template_directory_uri()?>/images/anahuac.png" alt="">
+                        <img class="convenio-logo" src="<?php echo get_template_directory_uri()?>/images/anahuac.png" alt="">
                         <p class="font-title">La Universidad Anáhuac es una reconocida institución privada de educación superior comprometida con la excelencia en la formación integral de personas que ejerzan su liderazgo con inspiración cristiana y así contribuyan a la transformación de la sociedad y la cultura.<p>
                           <p class="orange-text">Autotraffic también tiene convenio con esta importante universidad, dicho convenio inició en el primer semestre del 2017.</p>
                         </div>

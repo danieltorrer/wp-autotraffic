@@ -76,3 +76,5 @@
       <a href="#" class="wp-link">Close Navigation</a>
     </p>
   </header>
+
+  <?php include "preload-template.php"; ?>
