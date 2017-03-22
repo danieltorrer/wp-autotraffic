@@ -88,6 +88,9 @@ function initMenu() {
       },
       onAfter: function($container) {
         $('body').removeClass('menu-opened');
+        $('body').removeClass('modal-open');
+        $('.modal-backdrop').detach();
+        // $('body').removeClass('menu-opened');
         menuOpened = false;
         submenuOpened = false;
 

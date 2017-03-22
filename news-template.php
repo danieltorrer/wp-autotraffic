@@ -1,5 +1,3 @@
-
-
 <div id="news" class="news skrollr-deck slide not-fixed">
 
   <div class="container">
@@ -30,25 +28,26 @@
       <?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
       ?>
       <?php if($cont == 0) {?>
-      <div class="col-sm-5 news-item medium-item wow fadeInLeft">
+      <div class="col-sm-5 news-item medium-item wow fadeInLeft" style="background-image: url(<?php the_post_thumbnail_url(); ?>);">
         <div>
           <h5 class="font-title">Noticias</h5>
           <p><?php the_title(); ?></p>
         </div>
-        <a href="#" class="news-button wp-link button button-primary button-red button-animated" data-id="<?php the_ID();?>">+</a>
+        <a href="#" class="news-button wp-link button button-primary button-red button-animated" data-toggle="modal" data-target="#modal-<?php echo $cont;?>">+</a>
 
       </div>
+
       <?php } ?>
 
       <?php if($cont == 1) {?>
         <div class="col-sm-7">
           <div class="row">
 
-          <div class="col-sm-12 news-item small-item wow fadeInRight">
+          <div class="col-sm-12 news-item small-item wow fadeInRight" style="background-image: url(<?php the_post_thumbnail_url(); ?>);">
             <div>
               <h5 class="font-title">Noticias</h5>
               <p><?php the_title(); ?></p>
-              <a href="#" class="news-button wp-link button button-primary button-red button-animated" data-id="<?php the_ID();?>">+</a>
+              <a href="#" class="news-button wp-link button button-primary button-red button-animated" data-toggle="modal" data-target="#modal-<?php echo $cont;?>">+</a>
             </div>
           </div>
 
@@ -59,7 +58,7 @@
             <div>
               <h5 class="font-title">Noticias</h5>
               <p><?php the_title(); ?></p>
-              <a href="#" class="news-button wp-link button button-primary button-red button-animated button-white" data-id="<?php the_ID();?>">+</a>
+              <a href="#" class="news-button wp-link button button-primary button-red button-animated button-white" data-toggle="modal" data-target="#modal-<?php echo $cont;?>">+</a>
             </div>
           </div>
 
@@ -70,7 +69,7 @@
             <div>
               <h5 class="font-title">Noticias</h5>
               <p><?php the_title(); ?></p>
-              <a href="#" class="news-button wp-link button button-primary button-red button-animated" data-id="<?php the_ID();?>">+</a>
+              <a href="#" class="news-button wp-link button button-primary button-red button-animated" data-toggle="modal" data-target="#modal-<?php echo $cont;?>">+</a>
             </div>
           </div>
 

@@ -5,7 +5,7 @@ $(document).ready(function (){
 });
 </script>
 <!--  Modal noticia starts -->
-<?php include "modal-news-template.php" ?>
+<?php include 'modal-news-template.php'; ?>
 <!--  Modal noticia ends -->
 
 <!-- <main> -->
