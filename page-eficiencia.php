@@ -4,6 +4,7 @@
     $('body').removeClass('no-scroll');
   });
 </script>
+<script src="<?php echo get_template_directory_uri()?>/scripts/eficiencia.js"></script>
 <!--  eficiencia starts -->
 <section class="slide not-fixed eficiencia valign">
   <div class="valign-item">
@@ -35,44 +36,51 @@
   <!--  eficiencia ends-->
 
 
-    <!--  2.0 starts -->
+  <!--  2.0 starts -->
     <section class="two-eficiencia">
-      <div class="moon-bg"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="line full"></div>
-          </div>
-          <div class="col-sm-7">
-            <h3 class="movilidad-3-title font-text wow fadeInUp">
-              <span class="movilidad-3-number movilidad-blue-text">2.0</span> Movilidad <br>
-              <span>Eficiente</span>
-            </h3>
+      <!-- <div class="moon-bg"></div> -->
+      <div class="fondo-edificios">
+        <img class="full-image" src="<?php echo get_template_directory_uri();?>/images/fondo-edificions.jpg" alt="">
 
-            <div>
-              <p class="font-title wow fadeInUp">Para poder hacer más eficiente el traslado de las personas en el entorno de la movilidad es necesario obtener datos de cómo se está llevando a cabo, para esto es necesario implementar una solución de “Internet of Moving Things” (IoMT) que permita obtener los siguientes datos:</p>
-              <ul class="wow fadeInUp">
-                <li class="font-title">1. Cantidad de vehículos circulando</li>
-                <li class="font-title">2. Promedios de velocidad</li>
-                <li class="font-title">3. Clasificación vehicular</li>
-                <li class="font-title">4.Tiempos de recorrido origen destino</li>
-                <li class="font-title">5. Conteo de bicicletas en circulación por carriles de ciclovía</li>
-              </ul>
+        <div class="two-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="line full"></div>
+              </div>
+              <div class="col-sm-7">
+                <h3 class="movilidad-3-title font-text">
+                  <span class="movilidad-3-number movilidad-blue-text">2.0</span> Movilidad <br>
+                  <span>Eficiente</span>
+                </h3>
 
-              <h3 class="font-text white-text wow fadeInUp">Autotraffic en alianza con una de las empresas más importantes de GPS en el Mundo.</h3>
-              <br>
-              <p class="wow fadeInUp">
-                Cuenta con una base de datos con registro de los dos últimos años de desplazamientos vehiculares en las principales ciudades del país, esta información es utilizada para realizar estudios de congestionamiento vial y de excesos de velocidad, de esta forma se pueden localizar las intersecciones y los puntos más críticos que deben ser intervenidos directamente.
-                De esta forma en todos nuestros puntos de Intersecciones Seguras, Eficientes y Medioambientales son instalados sensores de tráfico que recolectan todos estos parámetros de la movilidad que son transmitidos en tiempo real al Centro de Control y mostrados en nuestra plataforma única HORUS, la cual permite analizar de mejor manera como se mueven nuestras ciudades y de esta forma realizar una planeación estratégica eficiente e inteligente, esta plataforma forma parte de una solución SmartCity que simplifica la gestión de infraestructura y movilidad además de que justifica las inversiones en aras de lograr la mayor eficiencia en el desplazamiento de todos los actores que intervienen en las vías de nuestras urbes.
-              </p>
+                <div>
+                  <p class="font-title">Para poder hacer más eficiente el traslado de las personas en el entorno de la movilidad es necesario obtener datos de cómo se está llevando a cabo, para esto es necesario implementar una solución de “Internet of Moving Things” (IoMT) que permita obtener los siguientes datos:</p>
+                  <ul>
+                    <li class="font-title">1. Cantidad de vehículos circulando</li>
+                    <li class="font-title">2. Promedios de velocidad</li>
+                    <li class="font-title">3. Clasificación vehicular</li>
+                    <li class="font-title">4.Tiempos de recorrido origen destino</li>
+                    <li class="font-title">5. Conteo de bicicletas en circulación por carriles de ciclovía</li>
+                  </ul>
+
+                  <h3 class="font-text white-text">Autotraffic en alianza con una de las empresas más importantes de GPS en el Mundo.</h3>
+                  <br>
+                  <p>
+                    Cuenta con una base de datos con registro de los dos últimos años de desplazamientos vehiculares en las principales ciudades del país, esta información es utilizada para realizar estudios de congestionamiento vial y de excesos de velocidad, de esta forma se pueden localizar las intersecciones y los puntos más críticos que deben ser intervenidos directamente.
+                    De esta forma en todos nuestros puntos de Intersecciones Seguras, Eficientes y Medioambientales son instalados sensores de tráfico que recolectan todos estos parámetros de la movilidad que son transmitidos en tiempo real al Centro de Control y mostrados en nuestra plataforma única HORUS, la cual permite analizar de mejor manera como se mueven nuestras ciudades y de esta forma realizar una planeación estratégica eficiente e inteligente, esta plataforma forma parte de una solución SmartCity que simplifica la gestión de infraestructura y movilidad además de que justifica las inversiones en aras de lograr la mayor eficiencia en el desplazamiento de todos los actores que intervienen en las vías de nuestras urbes.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-4"></div>
             </div>
-          </div>
-          <div class="col-sm-4"></div>
-        </div>
 
+          </div>
+        </div>
       </div>
-      <div class="animation wow fadeInUp">
-        <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/buildings-b.jpg" alt="">
+      <div id="trigger"></div>
+      <div class="animation">
+        <img class="full-image myImg" src="<?php echo get_template_directory_uri();?>/images/secuencia/34.jpg" alt="">
       </div>
     </section>
     <!--  2.0 ends -->

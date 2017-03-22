@@ -11,7 +11,7 @@
         <p class="download"><span>Descárgalo en amazon</span></p>
 
         <p>
-          <a href="#" class="button button-default">Descargar</a>
+          <a href="https://www.amazon.com.mx/Movilidad-pol%C3%ADtica-vialidades-sustentables-inteligentes/dp/6079722925/ref=sr_1_1?ie=UTF8&qid=1490134341&sr=8-1&keywords=movilidad+3.0" class="button button-default" target="_blank">Comprar</a>
         </p>
       </div>
       <div class="col-sm-6">

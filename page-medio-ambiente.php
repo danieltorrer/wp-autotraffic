@@ -4,9 +4,7 @@
     $('body').removeClass('no-scroll');
   });
 </script>
-<script src="<?php echo get_template_directory_uri()?>/scripts/ambiente.js">
-
-</script>
+<script src="<?php echo get_template_directory_uri()?>/scripts/ambiente.js"></script>
   <!--  eficiencia starts -->
   <section class="slide not-fixed ambiente valign">
     <div class="valign-item">
@@ -91,7 +89,6 @@
     <div class="animation">
       <img class="nube-1 hidden-sm hidden-xs" src="<?php echo get_template_directory_uri()?>/images/nube1.png" alt="">
       <img class="nube-2 hidden-sm hidden-xs" src="<?php echo get_template_directory_uri()?>/images/nube2.png" alt="">
-      <img class="nube-3 hidden-sm hidden-xs" src="<?php echo get_template_directory_uri()?>/images/nube2.png" alt="">
       <img class="full-image" src="<?php echo get_template_directory_uri()?>/images/ange-b.jpg" alt="">
     </div>
   </section>
