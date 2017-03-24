@@ -35,7 +35,6 @@
   </section>
   <!--  eficiencia ends-->
 
-
   <!--  2.0 starts -->
     <section class="two-eficiencia">
       <!-- <div class="moon-bg"></div> -->
@@ -84,6 +83,37 @@
       </div>
     </section>
     <!--  2.0 ends -->
+
+      <div class="hide">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/34.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/35.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/36.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/37.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/38.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/39.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/40.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/41.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/42.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/43.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/44.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/45.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/46.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/47.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/48.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/49.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/50.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/51.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/52.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/53.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/54.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/55.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/56.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/57.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/58.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/59.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/secuencia/60.jpg" alt="">
+      </div>
+
 
     <!--  stats starts-->
     <section class="stats-seguridad">

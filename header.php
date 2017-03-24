@@ -47,6 +47,7 @@
       <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/boletin">Boletín</a></li>
       <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/contacto">Contacto</a></li>
       <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/trabaja-con-nosotros">Trabaja con nosotros</a></li>
+      <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/smart-central">Smart Central</a></li>
       <li class="menu-item social-icons">
         <a href="" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="31" viewBox="0 0 14.9 30.7"><defs><rect width="14.9" height="30.7"/></defs><clipPath><use xlink:href="#SVGID_1_"/></clipPath><path d="M14.3 15.4h-4.4v15.4H3.3V15.4H0v-5.3h3.3V6.9C3.3 2.6 5.2 0 10.5 0h4.4v5.3h-2.7c-2.1 0-2.2 0.7-2.2 2.1l0 2.7h5L14.3 15.4z" style="clip-path:url(#SVGID_2_);"/></svg></a>
         <a href="" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="27" viewBox="0 0 34.4 26.9"><defs><rect width="34.4" height="26.9"/></defs><clipPath><use xlink:href="#SVGID_1_"/></clipPath><path d="M30.8 6.7c0 0.3 0 0.6 0 0.9 0 9-7.1 19.3-20.1 19.3 -4 0-7.7-1.1-10.8-3 0.6 0.1 1.1 0.1 1.7 0.1 3.3 0 6.3-1.1 8.8-2.9 -3.1-0.1-5.7-2-6.6-4.7 0.4 0.1 0.9 0.1 1.3 0.1 0.6 0 1.3-0.1 1.9-0.2 -3.2-0.6-5.7-3.4-5.7-6.7V9.4c1 0.5 2 0.8 3.2 0.8C2.7 9.1 1.4 7 1.4 4.6c0-1.2 0.4-2.4 1-3.4 3.5 4.1 8.7 6.8 14.5 7.1 -0.1-0.5-0.2-1-0.2-1.6C16.7 3 19.9 0 23.8 0c2 0 3.9 0.8 5.1 2.1 1.6-0.3 3.1-0.9 4.5-1.6 -0.5 1.6-1.6 2.9-3.1 3.8 1.4-0.2 2.8-0.5 4-1.1C33.4 4.5 32.2 5.7 30.8 6.7" style="clip-path:url(#SVGID_2_);"/></svg></a>
@@ -60,7 +61,7 @@
   </nav>
 
   <header class="
-    <?php if( is_page('clientes') ){
+    <?php if( is_page('clientes') || is_page('smart-central')){
       echo('alternate-header');
     } ?>"
   >

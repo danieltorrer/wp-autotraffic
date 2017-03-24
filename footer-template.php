@@ -17,6 +17,7 @@
             <li><a href="<?php echo site_url();?>/boletin">Boletín</a></li>
             <li><a href="<?php echo site_url();?>/contacto">Contacto</a></li>
             <li><a href="<?php echo site_url();?>/trabaja-con-nosotros">Trabaja con nosotros</a></li>
+            <li><a href="<?php echo site_url();?>/smart-central">Trabaja con nosotros</a></li>
           </ul>
         </div>
         <div class="col-md-4"></div>

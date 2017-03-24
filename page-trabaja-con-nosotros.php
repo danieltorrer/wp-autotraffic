@@ -37,7 +37,7 @@
           <div class="col-sm-12 wow fadeInUp">
             <h3 class="font-text text-center white-text">Trabaja con nosotros</h3>
           </div>
-          <div class="col-sm-6 col-sm-offset-3 wow fadeInUp">
+          <div class="col-sm-8 col-sm-offset-2 wow fadeInUp">
             <p class="font-text text-center white-text">
               En Autotraffic nos preocupamos por el bienestar no sólo físico, sino mental, <br>
               espiritual, familiar de nuestra gente. Conoce las oportunidades y beneficios que <br>

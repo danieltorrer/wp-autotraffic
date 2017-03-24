@@ -106,11 +106,11 @@
                       <p class="font-title">
                         Por tres causas princiaples: </p>
                         <ul>
-                          <li class="font-title">seguridad vial</li>
-                          <li class="font-title">contaminación</li>
-                          <li class="font-title">deficiencia en la transportación de las personas</li>
+                          <li class="font-title">Seguridad vial</li>
+                          <li class="font-title">Contaminación</li>
+                          <li class="font-title">Deficiencia en la transportación de las personas</li>
                         </ul>
-                        <p class="font-title">se pierden: 31,000 vidas al año y el costo que representa suma más de 228 mil millones al año.
+                        <p class="font-title">Se pierden: 31,000 vidas al año y el costo que representa suma más de 228 mil millones al año.
                         </p>
                       </div>
                       <div class="col-sm-6">
@@ -143,7 +143,7 @@
 
           <div class="container-fluid hidde-sm hidden-xs">
             <div class="row wow bounceInUp">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/walkable.jpg" alt="" class="full-image">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/walkable.png" alt="" class="full-image">
             </div>
           </div>
         </section>

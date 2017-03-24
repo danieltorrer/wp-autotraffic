@@ -15,14 +15,12 @@
 <!--  Modal noticia ends -->
 <!--  icons preload -->
 <div class="hide">
-  <img class="bike-icon" src="<?php echo get_template_directory_uri(); ?>/images/bike-icon.png" alt="">
-<img src="<?php echo get_template_directory_uri(); ?>/images/bike-icon.png" alt="" class="bike-icon">
-<img src="<?php echo get_template_directory_uri(); ?>/images/network-icon.png" alt="" class="network-icon">
-<img src="<?php echo get_template_directory_uri(); ?>/images/bus-icon.png" alt="" class="bus-icon">
-<img src="<?php echo get_template_directory_uri(); ?>/images/car-icon.png" alt="" class="car-icon">
-<img src="<?php echo get_template_directory_uri(); ?>/images/cel-icon.png" alt="" class="cel-icon">
-<img src="<?php echo get_template_directory_uri(); ?>/images/laptop-icon.png" alt="" class="laptop-icon">
-<img src="<?php echo get_template_directory_uri(); ?>/images/head-icon.png" alt="" class="head-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/peaton.svg" alt="" class="bike-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/moto.svg" alt="" class="network-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/carga.svg" alt="" class="bus-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/camion.svg" alt="" class="car-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/bici.svg" alt="" class="cel-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/auto.svg" alt="" class="laptop-icon">
 </div>
 <!--  icons preload-->
 
@@ -30,8 +28,22 @@
 <div class="scroll-body fixed">
 
   <!--  Home starts -->
+  <?php
+    $clase = 0;
+    $numero = rand(1, 100);
+    var_dump ($numero);
+    if($numero <= 20){
+      $clase = 3;
+    }
+    if($numero > 20 && $numero <= 45){
+      $clase = 2;
+    }
+    if($numero > 45){
+      $clase = 1;
+    }
+   ?>
   <section id="home" class="z-10 home valign skrollr-deck slide fixed" data-slide="0">
-    <div class="tilt-backup gradient-<?php echo( (rand(1,10)%3) + 1)?>"></div>
+    <div class="tilt-backup gradient-<?php echo $clase?>"></div>
     <canvas id="nodes" data-tilt data-tilt-reset="false" data-tilt-max="20"  data-tilt-perspective="1000" data-tilt-scale="1.2"></canvas>
     <div class="valign-item">
       <div class="container">
@@ -128,13 +140,13 @@
           <div class="col-sm-6 col-sm-offset-3">
             <div class="text-left">
               <div class="gif-overlay">
-                    <img src="<?php echo get_template_directory_uri()?>/images/mundo.gif" alt="" class="mundo-gif">
-                    <h4>Trazando un <br> mejor camino</h4>
-                  </div>
+                  <img src="<?php echo get_template_directory_uri()?>/images/mundo.gif" alt="" class="mundo-gif">
+                  <img class="trazando"  src="<?php echo get_template_directory_uri()?>/images/trazando.png" alt="">
+              </div>
               <div class="line line-margin"></div>
               <h4 class="font-text">LíDER en soluciones de <br>movilidad urbana </h4>
               <p>
-                <a href="#" class="button button-default">
+                <a href="<?php echo site_url(); ?>/nosotros" class="button button-default">
                   Nosotros
                 </a>
               </p>

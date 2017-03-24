@@ -63,3 +63,22 @@ html {
 .slick-track {
   background: #ffffff;
 }
+
+.carrousel-vertical .slick-dots {
+    right: -30px;
+}
+
+#movilidad .movilidad-title p {
+  font-size: 20px;
+}
+
+.smart-central {
+  padding-top: 80px;
+  /*width: 100%;*/
+  /*height: 100%;*/
+}
+
+.smart-central iframe {
+  width: 100%;
+  height: 90vh;
+}
