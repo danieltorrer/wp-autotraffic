@@ -34,8 +34,11 @@ $(document).ready(function (){
     <div class="row">
       <!--  -->
       <?php
+        $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
         $args = array(
           'post_type' => 'post',
+          'posts_per_page' => 8,
+          'paged'          => $paged
         );
         $the_query = new WP_Query( $args);
       ?>
@@ -44,10 +47,15 @@ $(document).ready(function (){
         <div class="related-item col-sm-6 wow fadeInUp">
           <div class="solution-item">
             <div class="solution-img">
-              <img class="full-image" src="<?php the_post_thumbnail_url('custom-size'); ?>" alt="">
+              <?php if( has_post_thumbnail( get_the_ID() ) ) {?>
+
+              <a href="<?php the_permalink();?>"><img class="full-image" src="<?php the_post_thumbnail_url('custom-size'); ?>" alt=""></a>
+              <?php } else { ?>
+                <a href="<?php the_permalink();?>"><img class="full-image" src="http://www.placehold.it/600x200" alt=""></a>
+              <?php } ?>
             </div>
             <div class="solution-description">
-              <h4 class="font-title hidden-xs hidden-sm">Noticias</span></h4>
+              <!-- <h4 class="font-title hidden-xs hidden-sm">Noticias</span></h4> -->
               <div class="row">
                 <div class="col-sm-6">
                   <a class="font-text single-extract" href="<?php the_permalink();?>"><?php the_title(); ?></a>
@@ -60,7 +68,22 @@ $(document).ready(function (){
           </div>
         </div>
 
-      <?php endwhile; else : ?>
+      <?php endwhile; ?>
+      <?php if ($the_query->max_num_pages > 1) { // check if the max number of pages is greater than 1  ?>
+      <div class="col-sm-6 text-center">
+        <div class="nav-next alignright">
+          <?php echo get_previous_posts_link( '< Entradas recientes' ); // display newer posts link ?>
+          <br><br>
+        </div>
+      </div>
+      <div class="col-sm-6 text-center">
+        <div class="nav-previous alignleft">
+          <?php echo get_next_posts_link( 'Entradas antiguas >', $the_query->max_num_pages ); // display older posts link ?>
+        </div>
+      </div>
+      <?php } ?>
+
+      <?php else : ?>
       <?php endif; ?>
 
 

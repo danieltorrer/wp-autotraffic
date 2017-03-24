@@ -66,7 +66,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/images/graph-icon.png" alt="">
             </div>
 
-            <div class="col-sm-10 wow fadeInUp">
+            <div class="col-sm-10 wow fadeInUp" style="padding-bottom: 210px;">
               <p class="font-title">Los sensores medioambientales son capaces de detectar lo siguientes parámetros:</p>
               <ul>
                 <li class="font-title">1. Gases contaminantes</li>

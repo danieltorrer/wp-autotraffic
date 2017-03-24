@@ -4,10 +4,18 @@
 
   <!-- <main> -->
   <!--  single cover starts -->
-  <section class="slide single-cover not-fixed"
-    style="background: url( <?php the_post_thumbnail_url(); ?>  );
-    background-size: cover;"
-  >
+    <?php if( has_post_thumbnail( get_the_ID() ) ) {?>
+      <section class="slide single-cover not-fixed"
+      style="background: url( <?php the_post_thumbnail_url(); ?>  );
+      background-size: cover;"
+      >
+      <?php } else { ?>
+        <section class="slide single-cover not-fixed"
+        style="background: url( http://www.placehold.it/1000x400  );
+        background-size: cover;"
+        >
+
+        <?php } ?>
     <div class="container">
       <div class="single-cover-container">
         <div class="single-cover-content">
