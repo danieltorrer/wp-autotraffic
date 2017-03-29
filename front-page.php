@@ -92,7 +92,7 @@
               <p class="font-title">Seguridad</p>
 
               <div class="movilidad-descripcion ">
-                <a class="button button-primary button-animated" href="<?php echo site_url()?>/seguridad">+</a>
+                <a class="button button-primary button-animated transition-link" href="<?php echo site_url()?>/seguridad">+</a>
               </div>
             </div>
 
@@ -105,7 +105,7 @@
               <p class="font-title">eficiencia</p>
 
               <div class="movilidad-descripcion">
-                <a class="button button-primary button-animated" href="<?php echo site_url()?>/eficiencia">+</a>
+                <a class="button button-primary button-animated transition-link" href="<?php echo site_url()?>/eficiencia">+</a>
               </div>
             </div>
 
@@ -118,7 +118,7 @@
               <p class="font-title">Medio ambiente</p>
 
               <div class="movilidad-descripcion">
-                <a class="button button-primary button-animated" href="<?php echo site_url()?>/medio-ambiente">+</a>
+                <a class="button button-primary button-animated transition-link" href="<?php echo site_url()?>/medio-ambiente">+</a>
               </div>
             </div>
 
@@ -146,7 +146,7 @@
               <div class="line line-margin"></div>
               <h4 class="font-text">LíDER en soluciones de <br>movilidad urbana </h4>
               <p>
-                <a href="<?php echo site_url(); ?>/nosotros" class="button button-default">
+                <a href="<?php echo site_url(); ?>/nosotros" class="transition-link button button-default">
                   Nosotros
                 </a>
               </p>

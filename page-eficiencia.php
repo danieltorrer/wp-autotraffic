@@ -2,7 +2,11 @@
 <script type="text/javascript">
   $(document).ready(function (){
     $('body').removeClass('no-scroll');
+    $('.solution-item .solution-description a:not(.button)').click(function(e){
+      e.preventDefault();
+    })
   });
+
 </script>
 <script src="<?php echo get_template_directory_uri()?>/scripts/eficiencia.js"></script>
 <!--  eficiencia starts -->
@@ -39,7 +43,7 @@
     <section class="two-eficiencia">
       <!-- <div class="moon-bg"></div> -->
       <div class="fondo-edificios">
-        <img class="full-image" src="<?php echo get_template_directory_uri();?>/images/fondo-edificions.jpg" alt="">
+        <img class="full-image hidden-sm hidden-xs" src="<?php echo get_template_directory_uri();?>/images/fondo-edificions.jpg" alt="">
 
         <div class="two-content">
           <div class="container">
@@ -56,7 +60,7 @@
                 <div>
                   <p class="font-title">Para poder hacer más eficiente el traslado de las personas en el entorno de la movilidad es necesario obtener datos de cómo se está llevando a cabo, para esto es necesario implementar una solución de “Internet of Moving Things” (IoMT) que permita obtener los siguientes datos:</p>
                   <ul>
-                    <li class="font-title">1. Cantidad de vehículos circulando</li>
+                    <li class="font-title">1. Niveles de congestionamiento vial</li>
                     <li class="font-title">2. Promedios de velocidad</li>
                     <li class="font-title">3. Clasificación vehicular</li>
                     <li class="font-title">4.Tiempos de recorrido origen destino</li>
@@ -79,6 +83,7 @@
       </div>
       <div id="trigger"></div>
       <div class="animation">
+        <img class="full-image hidden-md hidden-lg" src="images/fondo-edificions.jpg" alt="">
         <img class="full-image myImg" src="<?php echo get_template_directory_uri();?>/images/secuencia/34.jpg" alt="">
       </div>
     </section>
@@ -172,7 +177,7 @@
         <div class="col-sm-6 no-space wow fadeInLeft">
           <div class="solution-item">
             <div class="solution-img">
-              <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/camaras-b.jpg" alt="">
+              <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/space-b.jpg" alt="">
             </div>
             <div class="solution-description">
               <h4>Monitoreo <br> <span>en tiempo real</span></h4>
@@ -385,7 +390,7 @@ movilidad urbana.</a>
           <div class="see-description">
             <div class="see-content">
               <h4 class="text-center">1.0 Seguridad</h4>
-              <a href="<?php echo site_url(); ?>/seguridad" class="button button-default button-movilidad-green">Ver más</a>
+              <a href="<?php echo site_url(); ?>/seguridad" class="button button-default button-movilidad-green transition-link">Ver más</a>
             </div>
           </div>
         </div>
@@ -393,7 +398,7 @@ movilidad urbana.</a>
           <div class="see-description">
             <div class="see-content">
               <h4 class="text-center">3.0 Medio Ambiente</h4>
-              <a href="<?php echo site_url();?>/medio-ambiente" class="button button-default button-movilidad-pink">Ver más</a>
+              <a href="<?php echo site_url();?>/medio-ambiente" class="button button-default button-movilidad-pink transition-link">Ver más</a>
             </div>
           </div>
         </div>

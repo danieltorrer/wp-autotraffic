@@ -1,11 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Autotraffic</title>
-
   <?php wp_head(); ?>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendor.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/animate.min.css">
@@ -17,6 +16,9 @@
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/plugins.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/wow.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/main.js"></script>
+  <script src="/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js"></script>
+  <script src="/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 
@@ -33,28 +35,28 @@
 
   <nav class="menu-container">
     <ul class="menu-list ">
-      <li class="menu-item font-text"><a href="<?php echo site_url(); ?>">Inicio</a></li>
-      <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/nosotros">Nosotros</a></li>
+      <li class="menu-item font-text"><a class="transition-link" href="<?php echo site_url(); ?>">Inicio</a></li>
+      <li class="menu-item font-text"><a class="transition-link" href="<?php echo site_url(); ?>/nosotros">Nosotros</a></li>
       <li class="menu-item font-text">
-        <a href="#" class="item-sub-menu">Movilidad 3.0 <span>&#x25BC;</span></a>
+        <a href="#" class="item-sub-menu wp-link">Movilidad 3.0 <span>&#x25BC;</span></a>
         <ul class="menu-item-list" style="display: none;">
-          <li class="menu-item"><a href="<?php echo site_url(); ?>/seguridad">Seguridad</a></li>
-          <li class="menu-item"><a href="<?php echo site_url(); ?>/eficiencia">Eficiencia</a></li>
-          <li class="menu-item"><a href="<?php echo site_url(); ?>/medio-ambiente">Medio ambiente</a></li>
+          <li class="menu-item"><a class="transition-link" href="<?php echo site_url(); ?>/seguridad">Seguridad</a></li>
+          <li class="menu-item"><a class="transition-link" href="<?php echo site_url(); ?>/eficiencia">Eficiencia</a></li>
+          <li class="menu-item"><a class="transition-link" href="<?php echo site_url(); ?>/medio-ambiente">Medio ambiente</a></li>
         </ul>
       </li>
-      <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/clientes">Clientes</a></li>
-      <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/boletin">Boletín</a></li>
-      <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/contacto">Contacto</a></li>
-      <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/trabaja-con-nosotros">Trabaja con nosotros</a></li>
-      <li class="menu-item font-text"><a href="<?php echo site_url(); ?>/smart-central">Smart Central</a></li>
+      <li class="menu-item font-text"><a class="transition-link" href="<?php echo site_url(); ?>/clientes">Clientes</a></li>
+      <li class="menu-item font-text"><a class="transition-link" href="<?php echo site_url(); ?>/boletin">Boletín</a></li>
+      <li class="menu-item font-text"><a class="transition-link" href="<?php echo site_url(); ?>/contacto">Contacto</a></li>
+      <li class="menu-item font-text"><a class="transition-link" href="<?php echo site_url(); ?>/trabaja-con-nosotros">Trabaja con nosotros</a></li>
+      <li class="menu-item font-text"><a class="transition-link" href="<?php echo site_url(); ?>/smart-central">Smart Central</a></li>
       <li class="menu-item social-icons">
-        <a href="" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="31" viewBox="0 0 14.9 30.7"><defs><rect width="14.9" height="30.7"/></defs><clipPath><use xlink:href="#SVGID_1_"/></clipPath><path d="M14.3 15.4h-4.4v15.4H3.3V15.4H0v-5.3h3.3V6.9C3.3 2.6 5.2 0 10.5 0h4.4v5.3h-2.7c-2.1 0-2.2 0.7-2.2 2.1l0 2.7h5L14.3 15.4z" style="clip-path:url(#SVGID_2_);"/></svg></a>
-        <a href="" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="27" viewBox="0 0 34.4 26.9"><defs><rect width="34.4" height="26.9"/></defs><clipPath><use xlink:href="#SVGID_1_"/></clipPath><path d="M30.8 6.7c0 0.3 0 0.6 0 0.9 0 9-7.1 19.3-20.1 19.3 -4 0-7.7-1.1-10.8-3 0.6 0.1 1.1 0.1 1.7 0.1 3.3 0 6.3-1.1 8.8-2.9 -3.1-0.1-5.7-2-6.6-4.7 0.4 0.1 0.9 0.1 1.3 0.1 0.6 0 1.3-0.1 1.9-0.2 -3.2-0.6-5.7-3.4-5.7-6.7V9.4c1 0.5 2 0.8 3.2 0.8C2.7 9.1 1.4 7 1.4 4.6c0-1.2 0.4-2.4 1-3.4 3.5 4.1 8.7 6.8 14.5 7.1 -0.1-0.5-0.2-1-0.2-1.6C16.7 3 19.9 0 23.8 0c2 0 3.9 0.8 5.1 2.1 1.6-0.3 3.1-0.9 4.5-1.6 -0.5 1.6-1.6 2.9-3.1 3.8 1.4-0.2 2.8-0.5 4-1.1C33.4 4.5 32.2 5.7 30.8 6.7" style="clip-path:url(#SVGID_2_);"/></svg></a>
-<a href=""  target="_blank">
+        <a href="https://www.facebook.com/AutotrafficMX/?ref=ts&fref=ts" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="31" viewBox="0 0 14.9 30.7"><defs><rect width="14.9" height="30.7"/></defs><clipPath><use xlink:href="#SVGID_1_"/></clipPath><path d="M14.3 15.4h-4.4v15.4H3.3V15.4H0v-5.3h3.3V6.9C3.3 2.6 5.2 0 10.5 0h4.4v5.3h-2.7c-2.1 0-2.2 0.7-2.2 2.1l0 2.7h5L14.3 15.4z" style="clip-path:url(#SVGID_2_);"/></svg></a>
+        <a href="https://twitter.com/autotrafficmx?lang=es" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="34" height="27" viewBox="0 0 34.4 26.9"><defs><rect width="34.4" height="26.9"/></defs><clipPath><use xlink:href="#SVGID_1_"/></clipPath><path d="M30.8 6.7c0 0.3 0 0.6 0 0.9 0 9-7.1 19.3-20.1 19.3 -4 0-7.7-1.1-10.8-3 0.6 0.1 1.1 0.1 1.7 0.1 3.3 0 6.3-1.1 8.8-2.9 -3.1-0.1-5.7-2-6.6-4.7 0.4 0.1 0.9 0.1 1.3 0.1 0.6 0 1.3-0.1 1.9-0.2 -3.2-0.6-5.7-3.4-5.7-6.7V9.4c1 0.5 2 0.8 3.2 0.8C2.7 9.1 1.4 7 1.4 4.6c0-1.2 0.4-2.4 1-3.4 3.5 4.1 8.7 6.8 14.5 7.1 -0.1-0.5-0.2-1-0.2-1.6C16.7 3 19.9 0 23.8 0c2 0 3.9 0.8 5.1 2.1 1.6-0.3 3.1-0.9 4.5-1.6 -0.5 1.6-1.6 2.9-3.1 3.8 1.4-0.2 2.8-0.5 4-1.1C33.4 4.5 32.2 5.7 30.8 6.7" style="clip-path:url(#SVGID_2_);"/></svg></a>
+<a href="http://www.instagim.com/profile/autotrafficmx/3237038301"  target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" width="73" height="73" viewBox="0 0 73.3 73.4"><style>.a{clip-path:url(#SVGID_2_);}</style><defs><rect width="73.3" height="73.4"/></defs><clipPath><use xlink:href="#SVGID_1_"/></clipPath><path d="M36.7 0c5.7 0.2 11.3 0.1 17 0.5 7.1 0.5 12.9 3.4 16.6 9.8 1.7 3 2.6 6.2 2.7 9.6 0.2 8.4 0.3 16.8 0.3 25.2 0 3.8-0.1 7.6-0.7 11.4 -1.5 9.9-8.7 16.2-18.6 16.6 -11.4 0.5-22.9 0.4-34.4 0.1C8.6 72.9 0.6 65 0.3 53.9c-0.4-11.5-0.4-23.1 0.1-34.6C0.8 9.3 7.4 2.3 16.9 0.9c4.1-0.6 8.4-0.6 12.6-0.8 2.4-0.1 4.8 0 7.2 0C36.7 0.1 36.7 0 36.7 0M36.2 67.1c5.6-0.2 11-0.3 16.4-0.5 2.8-0.1 5.5-0.8 7.9-2.3 4-2.6 5.7-6.7 5.8-11.2 0.2-10.8 0.2-21.7 0-32.5 -0.2-7.9-5.2-13.2-13.1-13.4 -11.1-0.3-22.1-0.3-33.2 0C12.3 7.4 7.2 12.4 7 20 6.6 31.2 6.8 42.4 6.9 53.7c0.1 3.8 1.6 7.2 4.6 9.8 2.5 2.1 5.4 3 8.6 3.1C25.5 66.9 31 67 36.2 67.1" class="a"/><path d="M36.5 55.7c-10.4 0-18.8-8.4-18.8-18.8 0-10.5 8.3-18.9 18.9-18.9 10.4 0 18.9 8.4 18.9 18.9C55.5 47.4 47.1 55.7 36.5 55.7M48.8 36.9c0-6.9-5.4-12.2-12.2-12.2 -6.8 0-12.2 5.4-12.2 12.2 0 6.8 5.4 12.2 12.3 12.2C43.4 49 48.8 43.6 48.8 36.9" class="a"/><path d="M56.3 12.9c2.5 0 4.4 2 4.3 4.5 -0.1 2.4-2.1 4.3-4.5 4.3 -2.4 0-4.4-2.1-4.4-4.6C51.9 14.7 53.8 12.8 56.3 12.9" class="a"/></svg>
 </a>
-    <a href=""  target="_blank">    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="28" viewBox="0 0 40.2 28.3"><defs><rect width="40.2" height="28.3"/></defs><clipPath><use xlink:href="#SVGID_1_"/></clipPath><path d="M39.8 6.1c0 0-0.4-2.8-1.6-4C36.7 0.5 35 0.5 34.2 0.4 28.5 0 20.1 0 20.1 0H20.1c0 0-8.4 0-14.1 0.4C5.2 0.5 3.5 0.5 2 2.1c-1.2 1.2-1.6 4-1.6 4S0 9.4 0 12.6v3c0 3.3 0.4 6.5 0.4 6.5S0.8 24.9 2 26.2c1.5 1.6 3.5 1.6 4.4 1.7 3.2 0.3 13.7 0.4 13.7 0.4s8.4 0 14.1-0.4c0.8-0.1 2.5-0.1 4-1.7 1.2-1.2 1.6-4 1.6-4s0.4-3.3 0.4-6.5v-3C40.2 9.4 39.8 6.1 39.8 6.1M15.9 19.4L15.9 8.1l10.9 5.7L15.9 19.4z" style="clip-path:url(#SVGID_2_);"/></svg>
+    <a href="https://www.youtube.com/channel/UCzx1W8o75wyux_yGhxbttLw"  target="_blank">    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="28" viewBox="0 0 40.2 28.3"><defs><rect width="40.2" height="28.3"/></defs><clipPath><use xlink:href="#SVGID_1_"/></clipPath><path d="M39.8 6.1c0 0-0.4-2.8-1.6-4C36.7 0.5 35 0.5 34.2 0.4 28.5 0 20.1 0 20.1 0H20.1c0 0-8.4 0-14.1 0.4C5.2 0.5 3.5 0.5 2 2.1c-1.2 1.2-1.6 4-1.6 4S0 9.4 0 12.6v3c0 3.3 0.4 6.5 0.4 6.5S0.8 24.9 2 26.2c1.5 1.6 3.5 1.6 4.4 1.7 3.2 0.3 13.7 0.4 13.7 0.4s8.4 0 14.1-0.4c0.8-0.1 2.5-0.1 4-1.7 1.2-1.2 1.6-4 1.6-4s0.4-3.3 0.4-6.5v-3C40.2 9.4 39.8 6.1 39.8 6.1M15.9 19.4L15.9 8.1l10.9 5.7L15.9 19.4z" style="clip-path:url(#SVGID_2_);"/></svg>
 </a>
       </li>
     </ul>

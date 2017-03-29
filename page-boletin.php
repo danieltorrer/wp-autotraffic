@@ -45,23 +45,25 @@ $(document).ready(function (){
       <?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
       ?>
         <div class="related-item col-sm-6 wow fadeInUp">
-          <div class="solution-item">
-            <div class="solution-img">
-              <?php if( has_post_thumbnail( get_the_ID() ) ) {?>
+          <?php if( has_post_thumbnail( get_the_ID() ) ) {?>
+          <div class="solution-item" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat center center; background-size: cover;">
+            <!-- <div class="solution-img"> -->
 
-              <a href="<?php the_permalink();?>"><img class="full-image" src="<?php the_post_thumbnail_url('custom-size'); ?>" alt=""></a>
+              <!-- <a href="<?php the_permalink();?>"><img class="full-image" src="<?php the_post_thumbnail_url('custom-size'); ?>" alt=""></a> -->
               <?php } else { ?>
-                <a href="<?php the_permalink();?>"><img class="full-image" src="http://www.placehold.it/600x200" alt=""></a>
+            <div class="solution-item" style="background: url(<?php echo get_template_directory_uri(); ?>/images/banner.jpg) no-repeat center center; background-size: cover;">
+
+                <!-- <a href="<?php the_permalink();?>"><img class="full-image" src="http://www.placehold.it/600x200" alt=""></a> -->
               <?php } ?>
-            </div>
+            <!-- </div> -->
             <div class="solution-description">
-              <!-- <h4 class="font-title hidden-xs hidden-sm">Noticias</span></h4> -->
+              <h4 class="font-title hidden-xs hidden-sm">Noticias</span></h4>
               <div class="row">
                 <div class="col-sm-6">
-                  <a class="font-text single-extract" href="<?php the_permalink();?>"><?php the_title(); ?></a>
+                  <a class="font-text single-extract transition-link" href="<?php the_permalink();?>"><?php the_title(); ?></a>
                 </div>
                 <div class="col-sm-6 single-see-more">
-                  <a href="<?php the_permalink();?>" class="button button-primary button-red">+</a>
+                  <a href="<?php the_permalink();?>" class="button button-primary button-red transition-link">+</a>
                 </div>
               </div>
             </div>

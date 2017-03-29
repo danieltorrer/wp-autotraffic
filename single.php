@@ -11,7 +11,7 @@
       >
       <?php } else { ?>
         <section class="slide single-cover not-fixed"
-        style="background: url( http://www.placehold.it/1000x400  );
+        style="background: url(<?php echo get_template_directory_uri();?>/images/env-b.jpg  );
         background-size: cover;"
         >
 
@@ -59,7 +59,7 @@
 
 <?php
 $args = array(
-	'numberposts' => 10,
+	'numberposts' => 5,
 	'offset' => 0,
 	'category' => 0,
 	'orderby' => 'post_date',
@@ -78,7 +78,7 @@ $recent_posts = wp_get_recent_posts( $args, ARRAY_A );
 
 
   <!--  single related starts -->
-  <section class="single-related">
+  <section class="single-related single-container">
     <div class="container">
       <div class="row">
         <div class="col-sm-7 col-sm-offset-2">
@@ -92,20 +92,29 @@ $recent_posts = wp_get_recent_posts( $args, ARRAY_A );
             ?>
 
               <div class="related-item wow fadeInUp">
-                <div class="solution-item">
-                  <div class="solution-img">
+                <?php if( has_post_thumbnail( get_the_ID() ) ) {?>
+                <div class="solution-item" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat center center; background-size: cover;">
+                  <!-- <div class="solution-img"> -->
+
+                    <!-- <a href="<?php the_permalink();?>"><img class="full-image" src="<?php the_post_thumbnail_url('custom-size'); ?>" alt=""></a> -->
+                    <?php } else { ?>
+                  <div class="solution-item" style="background: url(<?php echo get_template_directory_uri(); ?>/images/banner.jpg) no-repeat center center; background-size: cover;">
+
+                      <!-- <a href="<?php the_permalink();?>"><img class="full-image" src="http://www.placehold.it/600x200" alt=""></a> -->
+                    <?php } ?>
+                  <!-- <div class="solution-img">
                     <?php echo get_the_post_thumbnail( $recent['ID'], 'large' );?>
-                  </div>
+                  </div> -->
                   <div class="solution-description">
                     <h4 class="font-title"><?php echo $recent["post_title"] ?></span></h4>
                     <div class="row">
                       <div class="col-sm-6">
-                        <a class="font-text single-extract" href=" <?php echo get_permalink($recent["ID"]) ?>">
+                        <a class="font-text single-extract transition-link" href=" <?php echo get_permalink($recent["ID"]) ?>">
                           <?php the_excerpt(); ?>
                         </a>
                       </div>
                       <div class="col-sm-6 single-see-more">
-                        <a href="<?php echo get_permalink($recent["ID"]) ?>" class="button button-primary button-red">+</a>
+                        <a href="<?php echo get_permalink($recent["ID"]) ?>" class="button button-primary button-red transition-link">+</a>
                       </div>
                     </div>
                   </div>

@@ -45,7 +45,7 @@
             </p>
           </div>
           <div class="col-sm-12">
-            <div class="perks wow fadeInUp"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">-	Desarrollo <br> profesional</p></div><!--
+            <div class="perks wow fadeInUp"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Desarrollo <br> profesional</p></div><!--
             --><div class="perks wow fadeInUp"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Planes de <br> previsión social</p></div><!--
           --><div class="perks wow fadeInUp"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Ambiente laboral <br>agradable y seguro</p></div><!--
         --><div class="perks wow fadeInUp"> <img src="<?php echo get_template_directory_uri(); ?>/images/shield-icon.png" alt=""> <p class="text-center font-title white-text">Estabilidad <br> laboral</p></div>
@@ -120,6 +120,23 @@
 <!--  newsletter ends -->
 
 <script src="<?php echo get_template_directory_uri(); ?>/scripts/vacante.js"></script>
+<script type="text/javascript">
+// function initContactForm() {
+//     $('div.wpcf7 > form').wpcf7InitForm();
+//     $('form.wpcf7-form')
+//         .each(function() {
+//             $(this).find('img.ajax-loader').last().remove();
+//         });
+// }
+
+// document.addEventListener( 'wpcf7mailsent', function( event ) {
+//     location = 'http://autotraffic.com.mx/trabaja-con-nosotros/';
+// }, false );
+
+// $(document).ready(function(){
+//   // initContactForm();
+// })
+</script>
 
 <?php include "footer-template.php" ?>
 <!-- </div> -->

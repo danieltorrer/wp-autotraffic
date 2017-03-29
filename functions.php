@@ -22,27 +22,34 @@ function add_slug_body_class( $classes ) {
   return $classes;
 }
 
-
-
-function ajax_enqueue_scripts(){
-  $ajaxurl = '';
-  if( in_array('sitepress-multilingual-cms/sitepress.php', get_option('active_plugins')) ){
-    $ajaxurl .= admin_url( 'admin-ajax.php?lang=' . ICL_LANGUAGE_CODE );
-  } else{
-    $ajaxurl .= admin_url( 'admin-ajax.php');
-  }
-
-  wp_localize_script( 'twentysixteen-script', 'screenReaderText', array(
-    // 'expand'   => __( 'expand child menu', 'twentysixteen' ),
-    // 'collapse' => __( 'collapse child menu', 'twentysixteen' ),
-    'ajaxurl'  => $ajaxurl,
-    // 'noposts'  => esc_html__('No older posts found', 'twentysixteen'),
-    // 'loadmore' => esc_html__('Load more', 'twentysixteen')
-  ) );
+function html5blank_styles(){
+  // wp_enqueue_script('form-7', plugins_url() . '/contact-form-7/includes/js/jquery.form.js');
+  // wp_enqueue_script('script-7', plugins_url() . '/contact-form-7/includes/js/scripts.js');
+  // wp_enqueue_script('validation-7', plugins_url() . '/jquery-validation-for-contact-form-7/js/jquery.validate.min.js');
+  // wp_enqueue_script('validation-j-7', plugins_url() . '/jquery-validation-for-contact-form-7/js/jquery.jvcf7_validation.js');
 }
 
+
+
+// function ajax_enqueue_scripts(){
+//   // $ajaxurl = '';
+//   // if( in_array('sitepress-multilingual-cms/sitepress.php', get_option('active_plugins')) ){
+//   //   $ajaxurl .= admin_url( 'admin-ajax.php?lang=' . ICL_LANGUAGE_CODE );
+//   // } else{
+//   //   $ajaxurl .= admin_url( 'admin-ajax.php');
+//   // }
+//   //
+//   // wp_localize_script( 'twentysixteen-script', 'screenReaderText', array(
+//   //   // 'expand'   => __( 'expand child menu', 'twentysixteen' ),
+//   //   // 'collapse' => __( 'collapse child menu', 'twentysixteen' ),
+//   //   'ajaxurl'  => $ajaxurl,
+//   //   // 'noposts'  => esc_html__('No older posts found', 'twentysixteen'),
+//   //   // 'loadmore' => esc_html__('Load more', 'twentysixteen')
+//   // ) );
+//
+// }
+
 add_filter( 'body_class', 'add_slug_body_class' );
-add_action( 'wp_enqueue_scripts', 'ajax_enqueue_scripts' );
 
   // function remove_all_theme_styles() {
   //   // if ( is_page_template('.php') ) {
@@ -52,5 +59,6 @@ add_action( 'wp_enqueue_scripts', 'ajax_enqueue_scripts' );
   // }
   //
   // add_action('wp_print_styles', 'remove_all_theme_styles', 100);
+add_action('wp_enqueue_scripts', 'html5blank_styles'); // Add Theme Stylesheet
 
   ?>

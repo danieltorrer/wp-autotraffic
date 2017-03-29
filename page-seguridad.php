@@ -2,7 +2,12 @@
 <script type="text/javascript">
   $(document).ready(function (){
     $('body').removeClass('no-scroll');
+    $('.solution-item .solution-description a:not(.button)').click(function(e){
+      e.preventDefault();
+    })
   });
+
+
 </script>
   <!-- <main> -->
   <!--  seguridad starts -->
@@ -84,7 +89,7 @@
           </div>
           <div class="col-sm-6 wow fadeInRight">
             <div class="valign stats-list">
-              <p class="font-title">Hemos desarrollado una solución de Multifotocontrol de faltas al reglamento, que permite detectar a través de fotografías las siguientes faltas al reglamento:</p>
+              <p class="font-title">Hemos desarrollado una solución de Multifotocontrol de faltas al reglamento, que permite detectar a través de fotografías las siguientes faltas al mismo:</p>
               <ul>
                 <li class="font-title"><img src="<?php echo get_template_directory_uri(); ?>/images/check-icon.png" alt="check">Cruce de luz roja</li>
                 <li class="font-title"><img src="<?php echo get_template_directory_uri(); ?>/images/check-icon.png" alt="check">Invasión a paso peatonal</li>
@@ -103,7 +108,7 @@
           <div class="row">
             <div class="col-sm-4 wow fadeInUp">
               <div class="stats-number text-center">
-                <h4 class="font-title">1,008</h4>
+                <h4 class="font-title">+1,008</h4>
                 <p class="font-title">Vidas salvadas con <br>nuestros proyectos</p>
               </div>
             </div>
@@ -360,7 +365,7 @@ para llevar cultura y educación vial y sustentable a los niños.</a>
           <div class="see-description">
             <div class="see-content">
               <h4 class="text-center">2.0 Eficiencia</h4>
-              <a href="<?php echo site_url(); ?>/eficiencia" class="button button-default button-movilidad-blue">Ver más</a>
+              <a href="<?php echo site_url(); ?>/eficiencia" class="button button-default button-movilidad-blue transition-link">Ver más</a>
             </div>
           </div>
         </div>
@@ -368,7 +373,7 @@ para llevar cultura y educación vial y sustentable a los niños.</a>
           <div class="see-description">
             <div class="see-content">
               <h4 class="text-center">3.0 Medio Ambiente</h4>
-              <a href="<?php  echo site_url();  ?>/medio-ambiente" class="button button-default button-movilidad-pink">Ver más</a>
+              <a href="<?php  echo site_url();  ?>/medio-ambiente" class="button button-default button-movilidad-pink transition-link">Ver más</a>
             </div>
           </div>
         </div>

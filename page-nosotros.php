@@ -183,7 +183,6 @@
                   <div class="valign-item">
                     <img class="convenio-logo" src="<?php echo get_template_directory_uri()?>/images/design-4.png" alt="">
                     <p class="font-title">El Diseño para Todos (Design for All) es la intervención sobre entornos, productos y servicios con la finalidad de que todas las personas, incluidas las generaciones futuras, independientemente de la edad, el género, las capacidades o el bagaje cultural, puedan disfrutar participando en la construcción de nuestra sociedad en igualdad de condiciones.
-                      Autoraffic tiene el honor de formar parte de esta fundación y juntos poder generar ideas y soluciones para el beneficio de toda la sociedad. Esta alianza se formalizó en Febrero de 2017.
                     </p>
                     <p class="aqua-text">Autoraffic tiene el honor de formar parte de esta fundación y juntos poder generar ideas y soluciones para el beneficio de toda la sociedad. Esta alianza se formalizó en Febrero de 2017.</p>
                   </div>

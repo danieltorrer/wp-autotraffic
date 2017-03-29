@@ -58,7 +58,7 @@
 
       <div class="row margin-90">
         <div class="col-sm-6">
-          <form action="">
+          <!-- <form action="">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -90,7 +90,9 @@
             </div>
 
 
-          </form>
+          </form> -->
+          <?php echo do_shortcode('[contact-form-7 id="265" title="contacto" html_class="no-smoothState"]') ?>
+
         </div>
         <div class="col-sm-5 col-sm-offset-1 contact-lider">
           <div class="line"></div>

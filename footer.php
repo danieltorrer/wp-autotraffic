@@ -78,8 +78,10 @@ function initMenu() {
     new WOW().init();
 
     var settings = {
-      anchors: 'a',
-      blacklist: '.wp-link',
+      prefetch: true,
+      // forms: 'form',
+      anchors: 'a.transition-link',
+      blacklist: 'form, .wp-link, input[type="submit"], .no-smoothState',
       onStart: {
         duration: 480,
         render: function ( $container ) {
@@ -90,7 +92,8 @@ function initMenu() {
         $('body').removeClass('menu-opened');
         $('body').removeClass('modal-open');
         $('.modal-backdrop').detach();
-        // $('body').removeClass('menu-opened');
+        $('body').removeClass('menu-opened');
+
         menuOpened = false;
         submenuOpened = false;
 

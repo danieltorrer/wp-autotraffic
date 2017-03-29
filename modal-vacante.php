@@ -31,9 +31,7 @@
             <?php echo get('requisitos'); ?>
             <br><br>
             <h4>Principales actividades a realizar</h4>
-            <p>
-              <?php echo get('actividades'); ?>
-            </p>
+            <?php echo get('actividades'); ?>
           </div>
 
         </div>
@@ -47,11 +45,10 @@
 
           <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
-              <form action="">
+                <div class="row no-smoothState">
+                  <?php echo do_shortcode('[contact-form-7 id="39" title="Contact form 1" html_class="no-smoothState"]'); ?>
 
-                <div class="row">
-
-                  <div class="col-md-6">
+                  <!-- <div class="col-md-6">
                     <div class="form-group">
                       <label class="font-title" for="nombre">Nombre completo</label>
                       <input type="text" class="form-control" id="nombre" placeholder="Nombre">
@@ -66,7 +63,7 @@
 
                   <div class="col-md-6">
                     <div class="form-group">
-                      <label class="font-title" for="nombre">número Telefónico</label>
+                      <label class="font-title" for="nombre">Número Telefónico</label>
                       <input type="text" class="form-control" placeholder="01-222">
                     </div>
                   </div>
@@ -97,10 +94,9 @@
                       </button>
                     </div>
                   </div>
-                </div>
+ -->
 
-
-              </form>
+              </div>
             </div>
 
           </div>

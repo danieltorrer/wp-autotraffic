@@ -2,6 +2,10 @@
 <script type="text/javascript">
   $(document).ready(function (){
     $('body').removeClass('no-scroll');
+
+    $('.solution-item .solution-description a:not(.button)').click(function(e){
+      e.preventDefault();
+    })
   });
 </script>
 <script src="<?php echo get_template_directory_uri()?>/scripts/ambiente.js"></script>
@@ -66,7 +70,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/images/graph-icon.png" alt="">
             </div>
 
-            <div class="col-sm-10 wow fadeInUp" style="padding-bottom: 210px;">
+            <div class="col-sm-10 wow fadeInUp" style="padding-bottom: 520px;">
               <p class="font-title">Los sensores medioambientales son capaces de detectar lo siguientes parámetros:</p>
               <ul>
                 <li class="font-title">1. Gases contaminantes</li>
@@ -102,7 +106,7 @@
         <div class="row">
           <div class="col-sm-4  wow fadeInUp">
             <div class="stats-number text-center">
-              <h4 class="font-title movilidad-pink-text">1,008</h4>
+              <h4 class="font-title movilidad-pink-text">+1,008</h4>
               <p class="font-title">Vidas salvadas con <br>nuestros proyectos</p>
               <div class="line movilidad-line movilidad-pink line-margin"></div>
             </div>
@@ -174,31 +178,31 @@ paneles solares que cpatura carbono y produce oxígeno</a>
     </div>
 
     <div class="row">
-      <div class="col-sm-4 no-space  wow slideInUp">
+      <div class="col-sm-6 no-space wow slideInUp">
         <div class="solution-item small">
           <div class="solution-img">
-            <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/farm-b.jpg" alt="">
+            <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/sensores1.jpg" alt="">
           </div>
           <div class="solution-description">
             <h4>sensores <br> <span>medioambientales</span></h4>
-            <a href="#">Niveles de partículas</a>
+            <a href="#">Gases CO, CO2, NOx, O3</a>
           </div>
         </div>
       </div>
 
-      <div class="col-sm-4 no-space  wow slideInUp">
+      <div class="col-sm-6 no-space wow slideInUp">
         <div class="solution-item small">
           <div class="solution-img">
-            <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/gas-b.jpg" alt="">
+            <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/sensores2.jpg" alt="">
           </div>
           <div class="solution-description">
             <h4>Sensores <br> <span>medioambientales</span></h4>
-            <a href="#">Niveles de gases</a>
+            <a href="#">Partículas PM1, PM2.5, PM10</a>
           </div>
         </div>
       </div>
 
-      <div class="col-sm-4 no-space  wow slideInUp">
+      <!-- <div class="col-sm-4 no-space  wow slideInUp">
         <div class="solution-item small">
           <div class="solution-img">
             <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/chip-b.jpg" alt="">
@@ -208,7 +212,7 @@ paneles solares que cpatura carbono y produce oxígeno</a>
             <a href="#"> Nivel sonoro</a>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="row">
@@ -292,7 +296,7 @@ movilidad urbana.</a>
         <div class="see-description">
           <div class="see-content">
             <h4 class="text-center">1.0 Seguridad</h4>
-            <a href="<?php echo site_url(); ?>/seguridad" class="button button-default button-movilidad-green">Ver más</a>
+            <a href="<?php echo site_url(); ?>/seguridad" class="button button-default button-movilidad-green transition-link">Ver más</a>
           </div>
         </div>
       </div>
@@ -300,7 +304,7 @@ movilidad urbana.</a>
         <div class="see-description">
           <div class="see-content">
             <h4 class="text-center">2.0 eficiencia</h4>
-            <a href="<?php echo site_url(); ?>/eficiencia" class="button button-default button-movilidad-blue">Ver más</a>
+            <a href="<?php echo site_url(); ?>/eficiencia" class="button button-default button-movilidad-blue transition-link">Ver más</a>
           </div>
         </div>
       </div>
