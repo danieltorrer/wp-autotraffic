@@ -59,7 +59,7 @@
               <p class="font-title wow fadeInUp">La Movilidad Segura debe establecerse en 5 segmentos que provocan los hechos viales con más graves consecuencias:</p>
               <ul class="wow fadeInUp">
                 <li class="font-title">1. Cruceros Seguros</li>
-                <li class="font-title">2. Vias primarias con control de excesos de velocidad</li>
+                <li class="font-title">2. Vías primarias con control de excesos de velocidad</li>
                 <li class="font-title">3. No uso del celular mientras se conduce</li>
                 <li class="font-title">4. No conducir en estado de ebriedad</li>
                 <li class="font-title">5. Utilizar casco para motociclistas</li>

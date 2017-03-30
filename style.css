@@ -8,7 +8,7 @@
   Tags: autotraffic
 */
 
-@import "styles/main.css";
+/*@import "styles/main.css";*/
 
 html {
   margin-top: 0px !important;
@@ -112,4 +112,10 @@ html {
 .newsletter-form .wpcf7-form label.error {
   color: white;
   font-size: 14px;
+}
+
+@media (max-width: 767px){
+  .everything {
+    background-position: 7% center;
+  }
 }

@@ -303,6 +303,9 @@
                             <h3 class="movilidad-blue-text font-text">PIRÁMIDE DE <br> <span class="movilidad-blue-text font-text">movilidad</span></h3>
                           </div>
                           <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/piramide.png" alt="piramide">
+                          <div class="col-sm-12 text-center">
+                            <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/movilidad.png" alt="logo" style="width: 200px; height: auto;">
+                          </div>
                         </div>
                       </div>
                     </section>

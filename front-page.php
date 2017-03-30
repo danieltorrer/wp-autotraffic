@@ -21,6 +21,7 @@
 <img src="<?php echo get_template_directory_uri(); ?>/images/camion.svg" alt="" class="car-icon">
 <img src="<?php echo get_template_directory_uri(); ?>/images/bici.svg" alt="" class="cel-icon">
 <img src="<?php echo get_template_directory_uri(); ?>/images/auto.svg" alt="" class="laptop-icon">
+<img src="<?php echo get_template_directory_uri(); ?>/images/silla.svg" alt="" class="silla-icon">
 </div>
 <!--  icons preload-->
 

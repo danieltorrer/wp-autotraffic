@@ -8,7 +8,8 @@
   <?php wp_head(); ?>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/vendor.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/animate.min.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/main.css<?php echo '?'.filemtime( get_stylesheet_directory() . '/styles/main.css');?>">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css<?php echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles/clientes.css">
 
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/vendor.js"></script>

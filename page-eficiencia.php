@@ -83,7 +83,7 @@
       </div>
       <div id="trigger"></div>
       <div class="animation">
-        <img class="full-image hidden-md hidden-lg" src="images/fondo-edificions.jpg" alt="">
+        <img class="full-image hidden-md hidden-lg" src="<?php echo get_template_directory_uri();?>/images/fondo-edificions.jpg" alt="">
         <img class="full-image myImg" src="<?php echo get_template_directory_uri();?>/images/secuencia/34.jpg" alt="">
       </div>
     </section>
