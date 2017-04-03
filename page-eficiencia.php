@@ -67,11 +67,10 @@
                     <li class="font-title">5. Conteo de bicicletas en circulación por carriles de ciclovía</li>
                   </ul>
 
-                  <h3 class="font-text white-text">Autotraffic en alianza con una de las empresas más importantes de GPS en el Mundo.</h3>
+                  <h3 class="font-text white-text">Autotraffic en alianza con una de las empresas más importantes de Análisis de datos en el Mundo.</h3>
                   <br>
                   <p>
-                    Cuenta con una base de datos con registro de los dos últimos años de desplazamientos vehiculares en las principales ciudades del país, esta información es utilizada para realizar estudios de congestionamiento vial y de excesos de velocidad, de esta forma se pueden localizar las intersecciones y los puntos más críticos que deben ser intervenidos directamente.
-                    De esta forma en todos nuestros puntos de Intersecciones Seguras, Eficientes y Medioambientales son instalados sensores de tráfico que recolectan todos estos parámetros de la movilidad que son transmitidos en tiempo real al Centro de Control y mostrados en nuestra plataforma única HORUS, la cual permite analizar de mejor manera como se mueven nuestras ciudades y de esta forma realizar una planeación estratégica eficiente e inteligente, esta plataforma forma parte de una solución SmartCity que simplifica la gestión de infraestructura y movilidad además de que justifica las inversiones en aras de lograr la mayor eficiencia en el desplazamiento de todos los actores que intervienen en las vías de nuestras urbes.
+                    Cuenta con una base de datos alimentada porcientos de miles de autos conectados con más de 5 años de antigüedad con desplazamientosvehiculares en las principales ciudades del país, esta información es utilizadapara realizar estudios de congestionamiento vial y de excesos de velocidad, deesta forma se pueden localizar las intersecciones y los puntos más críticos quedeben ser intervenidos directamente. De esta manera es posible conocer eldesempeño todos nuestros puntos de Intersecciones Seguras, Eficientes y Medioambientales, a través del análisis de información que es provista demanera gráfica e intuitiva, mediante mapas y reportes, con información histórica y en tiempo real por nuestra plataforma única HORUS, esta plataformaforma parte de una solución SmartCity que simplifica la gestión deinfraestructura y movilidad además de que justifica las inversiones en aras delograr la mayor eficiencia en el desplazamiento de todos los actores que intervienen en las vías de nuestras urbes.
                   </p>
                 </div>
               </div>
@@ -275,7 +274,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4 no-space wow fadeInUp">
+        <div class="col-sm-6 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/interseccion-b.jpg" alt="">
@@ -288,7 +287,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space wow fadeInUp">
+        <div class="col-sm-6 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/rive-b.jpg" alt="">
@@ -300,7 +299,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 no-space wow fadeInUp">
+        <!-- <div class="col-sm-4 no-space wow fadeInUp">
           <div class="solution-item small">
             <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/contaminacion-b.jpg" alt="">
@@ -310,7 +309,7 @@
               <a href="#"> en puntos controlados de Movilidad 3.0</a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="row">

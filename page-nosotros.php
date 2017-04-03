@@ -141,7 +141,7 @@
             </div>
           </div>
 
-          <div class="container-fluid hidde-sm hidden-xs">
+          <div class="container-fluid hidden-sm hidden-xs">
             <div class="row wow bounceInUp">
               <img src="<?php echo get_template_directory_uri(); ?>/images/walkable.png" alt="" class="full-image">
             </div>
@@ -171,14 +171,14 @@
         <section class="convenios">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-xs-12 col-sm-6 aqua">
+              <div class="col-xs-12 col-sm-6 aqua wow fadeInLeft">
                 <div class="valign convenio-item">
                   <div class="valign-item">
                     <h3>La Design for All Foundation es una entidad sin ánimo de lucro y de ámbito internacional fundada en 2001.</h3>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6">
+              <div class="col-xs-12 col-sm-6 wow fadeInRight">
                 <div class="valign convenio-item">
                   <div class="valign-item">
                     <img class="convenio-logo" src="<?php echo get_template_directory_uri()?>/images/design-4.png" alt="">
@@ -191,14 +191,14 @@
             </div>
 
             <div class="row">
-              <div class="col-xs-12 col-sm-6 blue hidden-md hidden-lg">
+              <div class="col-xs-12 col-sm-6 blue hidden-md hidden-lg fadeInLeft wow">
                 <div class="valign convenio-item">
                   <div class="valign-item">
-                    <h3>La BUAP es una institución de educación superior pública mexicana, autónoma y descentralizada.<h3>
+                    <h3>La BUAP es una institución de educación superior pública mexicana, autónoma y descentralizada.</h3>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6">
+              <div class="col-xs-12 col-sm-6 wow fadeInLeft">
                 <div class="valign convenio-item">
                   <div class="valign-item">
                     <img class="convenio-logo" src="<?php echo get_template_directory_uri()?>/images/buap.png" alt="">
@@ -207,24 +207,24 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 blue hidden-xs hidden-sm">
+              <div class="col-xs-12 col-sm-6 blue hidden-xs hidden-sm wow fadeInRight">
                 <div class="valign convenio-item">
                   <div class="valign-item">
-                    <h3>La BUAP es una institución de educación superior pública mexicana, autónoma y descentralizada.<h3>
+                    <h3>La BUAP es una institución de educación superior pública mexicana, autónoma y descentralizada.</h3>
                   </div>
                 </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="col-xs-12 col-sm-6 gray">
+              <div class="col-xs-12 col-sm-6 gray fadeInLeft wow">
                 <div class="valign convenio-item">
                   <div class="valign-item">
-                    <h3>Apoyar la investigación científica, el desarrollo tecnológico, la formación de recursos humanos de alto nivel.<h3>
+                    <h3>Apoyar la investigación científica, el desarrollo tecnológico, la formación de recursos humanos de alto nivel.</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12 col-sm-6 fadeInRight wow">
                   <div class="valign convenio-item">
                     <div class="valign-item">
                       <img class="convenio-logo" src="<?php echo get_template_directory_uri()?>/images/concyteq.jpg" alt="">
@@ -236,14 +236,14 @@
                 </div>
 
                 <div class="row">
-                  <div class="col-xs-12 col-sm-6 orange hidden-md hidden-lg">
+                  <div class="col-xs-12 col-sm-6 orange hidden-md hidden-lg fadeInLeft wow">
                     <div class="valign convenio-item">
                       <div class="valign-item">
-                        <h3>La Universidad Anáhuac Puebla  pertenece a la congregación católica de los Legionarios de Cristo, fue fundada en 1964.<h3>
+                        <h3>La Universidad Anáhuac Puebla  pertenece a la congregación católica de los Legionarios de Cristo, fue fundada en 1964.</h3>
                         </div>
                       </div>
                     </div>
-                  <div class="col-xs-12 col-sm-6">
+                  <div class="col-xs-12 col-sm-6 fadeInLeft wow">
                     <div class="valign convenio-item">
                       <div class="valign-item">
                         <img class="convenio-logo" src="<?php echo get_template_directory_uri()?>/images/anahuac.png" alt="">
@@ -252,10 +252,10 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 orange hidden-sm hidden-xs">
+                    <div class="col-xs-12 col-sm-6 orange hidden-sm hidden-xs fadeInRight wow">
                       <div class="valign convenio-item">
                         <div class="valign-item">
-                          <h3>La Universidad Anáhuac Puebla  pertenece a la congregación católica de los Legionarios de Cristo, fue fundada en 1964.<h3>
+                          <h3>La Universidad Anáhuac Puebla  pertenece a la congregación católica de los Legionarios de Cristo, fue fundada en 1964.</h3>
                           </div>
                         </div>
                       </div>

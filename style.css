@@ -114,8 +114,74 @@ html {
   font-size: 14px;
 }
 
+.sensores-ambientales {
+  padding-bottom: 540px;
+}
+
+.nube-sm {
+  width: 100%;
+  height: 540px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 3;
+  /*overflow: hidden;*/
+  /*background: url(images/nube1.png) no-repeat center top;*/
+}
+
+.nube-sm .nube-1 {
+  width: 100%;
+  height: auto;
+  margin-top: 248px;
+  position: absolute;
+  /*margin-left: 194px;*/
+}
+
+.nube-sm .nube-2 {
+  width: 100%;
+  height: auto;
+  margin-left: -120px;
+  margin-top: 255px;
+  position: absolute;
+}
+
 @media (max-width: 767px){
+ .ideologia .slick-dots{
+    display: none !important;
+  }
+
+  .book.slide.not-fixed {
+    background-position: right top !important;
+  }
+
+  .nosotros-cover.slide.not-fixed {
+    background-attachment: scroll;
+    /*background position: left top;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .book.slide.not-fixed p{
+    font-size: 16px;
+  }
+
+  .slide.not-fixed {
+    background-attachment: scroll;
+    /*background position: left top;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   .everything {
     background-position: 7% center;
+  }
+
+  .sensores-ambientales {
+    padding-bottom: 240px;
   }
 }

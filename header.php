@@ -20,6 +20,16 @@
   <script src="/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js"></script>
   <script src="/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
   <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    if(window.innerWidth < 768){
+      $(window).scroll(function() {
+        var scrolledY = $(window).scrollTop();
+          $('.slide.not-fixed:not(.book, .nosotros-cover)').css('background-position', 'center ' + ((scrolledY)) + 'px');
+      });
+    }
+  })
+  </script>
 
 </head>
 

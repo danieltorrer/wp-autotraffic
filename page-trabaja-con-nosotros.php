@@ -38,10 +38,13 @@
             <h3 class="font-text text-center white-text">Trabaja con nosotros</h3>
           </div>
           <div class="col-sm-8 col-sm-offset-2 wow fadeInUp">
-            <p class="font-text text-center white-text">
+            <p class="font-text text-center white-text hidden-sm hidden-xs">
               En Autotraffic nos preocupamos por el bienestar no sólo físico, sino mental, <br>
               espiritual, familiar de nuestra gente. Conoce las oportunidades y beneficios que <br>
               te ofrecemos. No lo piense más y comunícate con nosotros.
+            </p>
+            <p class="font-text text-center white-text hidden-md hidden-lg">
+              En Autotraffic nos preocupamos por el bienestar no sólo físico, sino mental espiritual, familiar de nuestra gente. Conoce las oportunidades y beneficios que te ofrecemos. No lo piense más y comunícate con nosotros.
             </p>
           </div>
           <div class="col-sm-12">

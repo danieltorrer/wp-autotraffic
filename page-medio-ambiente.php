@@ -70,7 +70,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/images/graph-icon.png" alt="">
             </div>
 
-            <div class="col-sm-10 wow fadeInUp" style="padding-bottom: 520px;">
+            <div class="col-sm-10 wow fadeInUp sensores-ambientales">
               <p class="font-title">Los sensores medioambientales son capaces de detectar lo siguientes parámetros:</p>
               <ul>
                 <li class="font-title">1. Gases contaminantes</li>
@@ -81,6 +81,11 @@
                 <li class="font-title">6. Partículas contaminantes: PM1, PM2.5 y PM10</li>
                 <li class="font-title">7. Contaminación auditiva (niveles de ruido)</li>
               </ul>
+            </div>
+
+            <div class="nube-sm hidden-md hidden-lg">
+              <img class="nube-2 hidden-md hidden-lg" src="<?php echo get_template_directory_uri()?>/images/nube2.png" alt="">
+              <img class="nube-1 " src="<?php echo get_template_directory_uri()?>/images/nube1.png" alt="">
             </div>
 
           </div>
