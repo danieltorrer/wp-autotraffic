@@ -17,8 +17,8 @@
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/plugins.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/wow.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/scripts/main.js"></script>
-  <script src="/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js"></script>
-  <script src="/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
+  <script src="<?php echo site_url() ?>/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js"></script>
+  <script src="<?php echo site_url() ?>/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
   <script src='https://www.google.com/recaptcha/api.js'></script>
   <script type="text/javascript">
   $(document).ready(function(){

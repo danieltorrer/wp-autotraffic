@@ -145,6 +145,46 @@ html {
   position: absolute;
 }
 
+.modal span.wpcf7-not-valid-tip{
+  color: #262121;
+  font-family: PT Sans Narrow,sans-serif;
+  /*font-weight: bold;*/
+}
+
+
+.modal div.wpcf7-response-output {
+  margin: 0;
+}
+
+.modal div.wpcf7-validation-errors,
+.modal div.wpcf7-mail-sent-ok,
+.modal div.wpcf7-mail-sent-ng {
+  border-color: #262121;
+  /*border: none;*/
+  color: #262121;
+  font-family: PT Sans Narrow,sans-serif;
+}
+
+
+span.wpcf7-not-valid-tip{
+  color: #fff;
+  font-family: PT Sans Narrow,sans-serif;
+  /*font-weight: bold;*/
+}
+
+div.wpcf7-response-output {
+  margin: 0;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-mail-sent-ok,
+div.wpcf7-mail-sent-ng {
+  border-color: #fff;
+  /*border: none;*/
+  color: #fff;
+  font-family: PT Sans Narrow,sans-serif;
+}
+
 @media (max-width: 767px){
  .ideologia .slick-dots{
     display: none !important;

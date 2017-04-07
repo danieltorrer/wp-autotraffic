@@ -58,39 +58,6 @@
 
       <div class="row margin-90">
         <div class="col-sm-6">
-          <!-- <form action="">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="nombre">Nombre</label>
-                  <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="correo">Correo</label>
-                  <input type="email" class="form-control" id="correo" placeholder="ejemplo@ejemplo.com">
-                </div>
-              </div>
-
-              <div class="col-sm-12">
-                <div class="form-group">
-                  <label for="correo">Mensaje</label>
-                  <textarea rows="8" class="form-control" id="correo" placeholder="Escribe aquí tu mensaje"></textarea>
-                </div>
-              </div>
-
-              <div class="col-sm-12">
-                <div class="form-group">
-                  <button class="button button-default button-big negative" value="Enviar">
-                    Enviar
-                  </button>
-                </div>
-              </div>
-            </div>
-
-
-          </form> -->
           <?php echo do_shortcode('[contact-form-7 id="265" title="contacto" html_class="no-smoothState"]') ?>
 
         </div>

@@ -47,55 +47,6 @@
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="row no-smoothState">
                   <?php echo do_shortcode('[contact-form-7 id="39" title="Contact form 1" html_class="no-smoothState"]'); ?>
-
-                  <!-- <div class="col-md-6">
-                    <div class="form-group">
-                      <label class="font-title" for="nombre">Nombre completo</label>
-                      <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label class="font-title" for="correo">correo electrónico </label>
-                      <input type="email" class="form-control" id="correo" placeholder="ejemplo@ejemplo.com">
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label class="font-title" for="nombre">Número Telefónico</label>
-                      <input type="text" class="form-control" placeholder="01-222">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label class="font-title" for="">Lugar de residencia </label>
-                      <input type="text" class="form-control" placeholder="¿Dónde vives?">
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label class="font-title" for="">Vacante a aplicar</label>
-                      <input type="text" class="form-control" placeholder="Operador">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label class="font-title" for="">Experiencia en el área </label>
-                      <input type="text" class="form-control" placeholder="Mínimo 1 año de experiencia">
-                    </div>
-                  </div>
-
-                  <div class="col-sm-12">
-                    <div class="form-group">
-                      <button class="button button-default button-big inverse" value="Enviar">
-                        Enviar
-                      </button>
-                    </div>
-                  </div>
- -->
-
               </div>
             </div>
 
