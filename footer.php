@@ -115,6 +115,8 @@ function initMenu() {
         initMenu();
         new WOW().init();
         $container.removeClass( 'slide-out' );
+        //_wpcf7 = {};
+        $('div.wpcf7 > form').wpcf7InitForm();
 
       }
 

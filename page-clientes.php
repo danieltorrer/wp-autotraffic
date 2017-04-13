@@ -27,7 +27,7 @@ $(document).ready(function (){
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-xs-7">
             <div class="valign">
               <div class="valign-item">
                 <h3 class="font-text">Gobierno del Estado de Puebla</h3>
@@ -92,7 +92,7 @@ $(document).ready(function (){
         </div>
         <div class="col-sm-8 col-sm-offset-2">
           <p class="font-text text-center white-text">
-            A través de todos nuestros recursos y esfuerzos: integrando las mejores tecnologías del <br>mundo y diseñando las propias. Te presentamos algunos de nuestros clientes y las <br> soluciones que con éxito hemos realizado.
+            Por nuestro compromiso para mejorar la movilidad e integrando las mejores tecnologías del <br>mundo y diseñando las propias. Te presentamos algunos de nuestros clientes y las <br> soluciones que con éxito hemos realizado.
           </p>
         </div>
         <div class="col-sm-12">
@@ -153,7 +153,7 @@ $(document).ready(function (){
                   <img src="<?php echo get_template_directory_uri(); ?>/images/pachuca-i.jpg" alt="">
                   <a
                   data-logo="<?php echo get_template_directory_uri(); ?>/images/pachuca-i.jpg"
-                  data-cliente-name="Gobierno del Estado de Puebla"
+                  data-cliente-name="H. Ayuntamiento de Pachuca, Hgo."
                   data-cliente-solucion="Velocidad"
                   data-cliente-periodo="2013- a la fecha"
                   data-cliente-stats="89%"
@@ -161,16 +161,16 @@ $(document).ready(function (){
 
                 </div>
               </div>
-              <p class="font-title">H. Ayuntamiento de Pachuca</p>
+              <p class="font-title">H. Ayuntamiento de Pachuca, Hgo.</p>
             </div>
 
             <div class="carousel-item">
               <div class="carrousel-content">
                 <div>
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/zapotlan-i.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/zapotlan-i.png" alt="">
                   <a
-                  data-logo="<?php echo get_template_directory_uri(); ?>/images/zapotlan-i.jpg"
-                  data-cliente-name="H. Ayuntamiento de Zapotlán el Grande"
+                  data-logo="<?php echo get_template_directory_uri(); ?>/images/zapotlan-i.png"
+                  data-cliente-name="H. Ayuntamiento de Zapotlán el Grande, Jal."
                   data-cliente-solucion="Velocidad"
                   data-cliente-periodo="2017"
                   data-cliente-stats="POR ARRANCAR"
@@ -178,15 +178,15 @@ $(document).ready(function (){
 
                 </div>
               </div>
-              <p class="font-title">H. Ayuntamiento de Zapotlán el Grande</p>
+              <p class="font-title">H. Ayuntamiento de Zapotlán el Grande, Jal.</p>
             </div>
 
             <div class="carousel-item">
               <div class="carrousel-content">
                 <div>
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/garcia-i.jpg" alt="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/garcia-i.png" alt="">
                   <a
-                  data-logo="<?php echo get_template_directory_uri(); ?>/images/garcia-i.jpg"
+                  data-logo="<?php echo get_template_directory_uri(); ?>/images/garcia-i.png"
                   data-cliente-name="H. Ayuntamiento de García, N.L."
                   data-cliente-solucion="Movilidad 3.0"
                   data-cliente-periodo="2017"
@@ -204,7 +204,7 @@ $(document).ready(function (){
                   <img src="<?php echo get_template_directory_uri(); ?>/images/ocotlan-i.jpg" alt="">
                   <a
                   data-logo="<?php echo get_template_directory_uri(); ?>/images/ocotlan-i.jpg"
-                  data-cliente-name="H. Ayuntamiento de Ocotlán, Jalisco"
+                  data-cliente-name="H. Ayuntamiento de Ocotlán, Jal."
                   data-cliente-solucion="Velocidad"
                   data-cliente-periodo="2014-2015"
                   data-cliente-stats="32%"
@@ -212,7 +212,7 @@ $(document).ready(function (){
 
                 </div>
               </div>
-              <p class="font-title">H. Ayuntamiento de Ocotlán, Jalisco</p>
+              <p class="font-title">H. Ayuntamiento de Ocotlán, Jal.</p>
             </div>
 
             <div class="carousel-item">
@@ -221,13 +221,13 @@ $(document).ready(function (){
                   <img src="<?php echo get_template_directory_uri(); ?>/images/ags-i.png" alt="#">
                   <a
                   data-logo="<?php echo get_template_directory_uri(); ?>/images/ags-i.png"
-                  data-cliente-name="Gobierno del Estado de Aguascalientes"
+                  data-cliente-name="H. Ayuntamiento de Aguascalientes, Ags."
                   data-cliente-solucion="Velocidad"
                   data-cliente-periodo="Enero a Diciembre 2013"
                   data-cliente-stats="25%"
                   class="button button-primary button-animated button-red cliente-button" href="#">+</a>                  </div>
                 </div>
-                <p class="font-title"> Gobierno del Estado de Aguascalientes</p>
+                <p class="font-title">H. Ayuntamiento de Aguascalientes, Ags.</p>
               </div>
 
               <div class="carousel-item">

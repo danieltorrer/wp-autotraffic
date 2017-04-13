@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+<?php include 'modal-video.php' ?>
+
 <script type="text/javascript">
   $(document).ready(function (){
     $('body').removeClass('no-scroll');
@@ -228,9 +230,9 @@ paneles solares que cpatura carbono y produce oxígeno</a>
             <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/parque-b.jpg" alt="">
           </div>
           <div class="solution-description">
-            <h4>Parque de movilidad 3.0</h4>
-            <a href="#">Parque temático desarrollado en conjunto con Jumbo <br>
-para llevar cultura y educación vial y sustentable a los niños.</a>
+            <h4 class="hover-cursor" data-toggle="modal" data-target="#modal-video">Parque de movilidad 3.0 <small>Ver video</small><br></h4>
+            <a class="hover-cursor" href="#" data-toggle="modal" data-target="#modal-video">Parque temático desarrollado en conjunto con Jumbo <br> para llevar cultura y educación vial y sustentable a los niños.</a>
+
           </div>
         </div>
       </div>
@@ -277,7 +279,7 @@ movilidad urbana.</a>
       <div class="col-sm-6">
         <div class="valign everything-item">
           <div class="valign-item">
-            <p class="font-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nostrum, veritatis delectus saepe blanditiis sapiente nesciunt asperiores doloremque tempore porro optio incidunt, cumque, nisi fugiat neque modi laudantium cupiditate vitae.</p>
+            <p class="font-title">Nuestra estrategia se enfoca en la Pirámide de la Movilidad, protegiendo a los más vulnerables empezando por los peatones, ciclistas y usuarios de transporte público y por supuesto a los automovilistas particulares.</p>
           </div>
         </div>
       </div>

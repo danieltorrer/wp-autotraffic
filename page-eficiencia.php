@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+<?php include 'modal-video.php' ?>
+
 <script type="text/javascript">
   $(document).ready(function (){
     $('body').removeClass('no-scroll');
@@ -65,12 +67,13 @@
                     <li class="font-title">3. Clasificación vehicular</li>
                     <li class="font-title">4.Tiempos de recorrido origen destino</li>
                     <li class="font-title">5. Conteo de bicicletas en circulación por carriles de ciclovía</li>
+                    <li class="font-title">6.- Medición de contaminantes</li>
                   </ul>
 
-                  <h3 class="font-text white-text">Autotraffic en alianza con una de las empresas más importantes de Análisis de datos en el Mundo.</h3>
+                  <h3 class="font-text white-text">Autotraffic en alianza con una de las empresas más importantes de análisis de datos en el mundo.</h3>
                   <br>
                   <p>
-                    Cuenta con una base de datos alimentada porcientos de miles de autos conectados con más de 5 años de antigüedad con desplazamientosvehiculares en las principales ciudades del país, esta información es utilizadapara realizar estudios de congestionamiento vial y de excesos de velocidad, deesta forma se pueden localizar las intersecciones y los puntos más críticos quedeben ser intervenidos directamente. De esta manera es posible conocer eldesempeño todos nuestros puntos de Intersecciones Seguras, Eficientes y Medioambientales, a través del análisis de información que es provista demanera gráfica e intuitiva, mediante mapas y reportes, con información histórica y en tiempo real por nuestra plataforma única HORUS, esta plataformaforma parte de una solución SmartCity que simplifica la gestión deinfraestructura y movilidad además de que justifica las inversiones en aras delograr la mayor eficiencia en el desplazamiento de todos los actores que intervienen en las vías de nuestras urbes.
+                    Cuenta con una base de datos alimentada por cientos de miles de autos conectados con más de 5 años de antigüedad con desplazamientos vehiculares en las principales ciudades del país, esta información es utilizada para realizar estudios de congestionamiento vial y de excesos de velocidad, de esta forma se pueden localizar las intersecciones y los puntos más críticos que deben ser intervenidos directamente. De esta manera es posible conocer el desempeño todos nuestros puntos de Intersecciones Seguras, Eficientes y Medioambientales, a través del análisis de información que es provista de manera gráfica e intuitiva, mediante mapas y reportes, con información histórica y en tiempo real por nuestra plataforma única HORUS, esta plataforma parte de una solución Smart City que simplifica la gestión de infraestructura y movilidad además de que justifica las inversiones en aras de lograr la mayor eficiencia en el desplazamiento de todos los actores que intervienen en las vías de nuestras urbes.
                   </p>
                 </div>
               </div>
@@ -320,9 +323,8 @@
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/parque-b.jpg" alt="">
             </div>
             <div class="solution-description">
-              <h4>Parque de movilidad 3.0</h4>
-              <a href="#">Parque temático desarrollado en conjunto con Jumbo
-para llevar cultura y educación vial y sustentable a los niños.</a>
+              <h4 class="hover-cursor" data-toggle="modal" data-target="#modal-video">Parque de movilidad 3.0 <small>Ver video</small><br></h4>
+              <a class="hover-cursor" href="#" data-toggle="modal" data-target="#modal-video">Parque temático desarrollado en conjunto con Jumbo <br> para llevar cultura y educación vial y sustentable a los niños.</a>
             </div>
           </div>
         </div>

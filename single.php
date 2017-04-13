@@ -42,8 +42,8 @@
 
           <div class="single-social wow fadeInUp">
             <span>compartir</span>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/tw-icon.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/fb-icon.png" alt="">
+            <a href="https://twitter.com/home?status=<?php echo urlencode(get_permalink()); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/tw-icon.png" alt=""></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(get_permalink()); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/fb-icon.png" alt=""></a>
           </div>
         </div>
       </div>

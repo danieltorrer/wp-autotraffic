@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php include 'modal-video.php' ?>
 <script type="text/javascript">
   $(document).ready(function (){
     $('body').removeClass('no-scroll');
@@ -294,6 +295,19 @@
           <div class="solution-item">
 
             <div class="solution-img">
+              <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/parque-b.jpg" alt="">
+            </div>
+            <div class="solution-description">
+              <h4 class="hover-cursor" data-toggle="modal" data-target="#modal-video">Parque de movilidad 3.0 <small>Ver video</small><br></h4>
+              <a class="hover-cursor" href="#" data-toggle="modal" data-target="#modal-video">Parque temático desarrollado en conjunto con Jumbo <br> para llevar cultura y educación vial y sustentable a los niños.</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 no-space wow slideInRight">
+          <div class="solution-item">
+
+            <div class="solution-img">
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/smart-b.jpg" alt="">
             </div>
 
@@ -303,19 +317,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 no-space wow slideInRight">
-          <div class="solution-item">
 
-            <div class="solution-img">
-              <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/parque-b.jpg" alt="">
-            </div>
-            <div class="solution-description">
-              <h4>Parque de movilidad 3.0<br></h4>
-              <a href="#">Parque temático desarrollado en conjunto con Jumbo <br>
-para llevar cultura y educación vial y sustentable a los niños.</a>
-            </div>
-          </div>
-        </div>
       </div>
 
     </div>

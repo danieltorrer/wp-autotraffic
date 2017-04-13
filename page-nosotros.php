@@ -76,12 +76,14 @@
                     En promedio, el 58% del total de los encuestados opina que hay menos
                     accidentes desde la instalación de radares que controlan la           velocidad. </p>
                     <p class="font-title">El 81% se sienten más seguros circulando en vías controladas por radares.</p>
-                  </div>
-                  <div class="col-sm-6">
+
+                    <p class="hidden-md hidden-lg">Siguiente ➡</p>
+                </div>
+                <div class="col-sm-6">
                     <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/resultados-2.jpg" alt="">
-                  </div>
                 </div>
               </div>
+            </div>
 
               <div class="slide-vertical">
                 <div class="row">
@@ -261,91 +263,92 @@
                       </div>
                     </div>
                       </div>
-                    </section>
+              </section>
                     <!--  convenios end-->
 
+                <?php include 'partners-template.php'; ?>
 
-                    <!--  ciudades caminables starts -->
-                    <section class="soluciones">
+              <!--  ciudades caminables starts -->
+              <section class="soluciones">
 
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <div class="line full"></div>
-                          </div>
-                          <div class="col-sm-6 text-left">
-                            <h2 class="font-text">QUEREMOS MÁS<br><span>CIUDADES CAMINABLES</span></h2>
-                          </div>
-                          <div class="col-sm-2">
-                          </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="line full"></div>
+                    </div>
+                    <div class="col-sm-6 text-left">
+                      <h2 class="font-text">QUEREMOS MÁS<br><span>CIUDADES CAMINABLES</span></h2>
+                    </div>
+                    <div class="col-sm-2">
+                    </div>
+                  </div>
+                </div>
+
+              </section>
+
+              <section class="caminable">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-sm-3  col-xs-6 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-1.jpg" alt=""> </div>
+                    <div class="col-sm-3  col-xs-6 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-2.jpg" alt=""> </div>
+                    <div class="col-sm-3  col-xs-6 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-3.jpg" alt=""> </div>
+                    <div class="col-sm-3  col-xs-6 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-4.jpg" alt=""> </div>
+                  </div>
+                </div>
+              </section>
+              <!--  ciudades caminables ends-->
+
+              <!--  Piramide starts -->
+              <section class="piramide">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h3 class="movilidad-blue-text font-text">PIRÁMIDE DE <br> <span class="movilidad-blue-text font-text">movilidad</span></h3>
+                    </div>
+                    <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/piramide.png" alt="piramide">
+                    <div class="col-sm-12 text-center">
+                      <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/movilidad.png" alt="logo" style="width: 200px; height: auto;">
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!--  Piramide ends -->
+
+              <!--  books starts -->
+              <?php include "book-template.php" ?>
+              <!--  books ends-->
+
+              <!--  everything starts -->
+              <section class="everything">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="valign everything-item everything-title">
+                        <div class="valign-item">
+                          <h4 class="font-text movilidad-blue-text">Todo <br><span class="movilidad-blue-text">comienza aquí</span></h4>
                         </div>
                       </div>
-
-                    </section>
-
-                    <section class="caminable">
-                      <div class="container-fluid">
-                        <div class="row">
-                          <div class="col-sm-3  col-xs-6 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-1.jpg" alt=""> </div>
-                          <div class="col-sm-3  col-xs-6 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-2.jpg" alt=""> </div>
-                          <div class="col-sm-3  col-xs-6 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-3.jpg" alt=""> </div>
-                          <div class="col-sm-3  col-xs-6 wow fadeInUp"> <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/caminable-4.jpg" alt=""> </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="valign everything-item">
+                        <div class="valign-item">
+                          <p class="font-title">Nuestra estrategia se enfoca en la Pirámide de la Movilidad, protegiendo a los más vulnerables empezando por los peatones, ciclistas y usuarios de transporte público y por supuesto a los automovilistas particulares</p>
                         </div>
                       </div>
-                    </section>
-                    <!--  ciudades caminables ends-->
+                    </div>
+                  </div>
+                </div>
+              </section>
 
-                    <!--  Piramide starts -->
-                    <section class="piramide">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <h3 class="movilidad-blue-text font-text">PIRÁMIDE DE <br> <span class="movilidad-blue-text font-text">movilidad</span></h3>
-                          </div>
-                          <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/piramide.png" alt="piramide">
-                          <div class="col-sm-12 text-center">
-                            <img class="full-image wow fadeInUp" src="<?php echo get_template_directory_uri(); ?>/images/movilidad.png" alt="logo" style="width: 200px; height: auto;">
-                          </div>
-                        </div>
-                      </div>
-                    </section>
-                    <!--  Piramide ends -->
+              <!--  everything ends -->
 
-                    <!--  books starts -->
-                    <?php include "book-template.php" ?>
-                    <!--  books ends-->
+              <!--  -->
+              <?php include "newsletter-template.php"; ?>
+              <!--  -->
+              <script src="<?php echo get_template_directory_uri(); ?>/scripts/nosotros.js"></script>
 
-                    <!--  everything starts -->
-                    <section class="everything">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="valign everything-item everything-title">
-                              <div class="valign-item">
-                                <h4 class="font-text movilidad-blue-text">Todo <br><span class="movilidad-blue-text">comienza aquí</span></h4>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-6">
-                            <div class="valign everything-item">
-                              <div class="valign-item">
-                                <p class="font-title">Nuestra estrategia se enfoca en la Pirámide de la Movilidad, protegiendo a los más vulnerables empezando por los peatones, ciclistas y usuarios de transporte público y por supuesto a los automovilistas particulares</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </section>
+              <!--  footer  starts  -->
+              <?php  include "footer-template.php"; ?>
+              <!-- footer ends  -->
 
-                    <!--  everything ends -->
-
-                    <!--  -->
-                    <?php include "newsletter-template.php"; ?>
-                    <!--  -->
-                    <script src="<?php echo get_template_directory_uri(); ?>/scripts/nosotros.js"></script>
-
-                    <!--  footer  starts  -->
-                    <?php  include "footer-template.php"; ?>
-                    <!-- footer ends  -->
-
-                    <?php get_footer(); ?>
+              <?php get_footer(); ?>

@@ -17,6 +17,10 @@ html {
   margin-top: 0px !important;
 }
 
+nav.menu-container .menu-list .menu-item a {
+  color: #565554
+}
+
 @media screen and ( max-width: 782px ) {
   html {
     margin-top: 0px !important;
@@ -83,6 +87,8 @@ html {
   height: 90vh;
 }
 
+
+
 /*header {
   z-index: 20;
 }*/
@@ -115,7 +121,8 @@ html {
 }
 
 .sensores-ambientales {
-  padding-bottom: 540px;
+  /*padding-bottom: 540px;*/
+  padding-bottom: 60px;
 }
 
 .nube-sm {
@@ -185,13 +192,63 @@ div.wpcf7-mail-sent-ng {
   font-family: PT Sans Narrow,sans-serif;
 }
 
+.hover-cursor {
+  cursor: pointer!important;
+}
+
+.solution-description small {
+  color: white;
+}
+
+#modal-video .modal-body{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.three-ambiente .animation {
+  background: #1440e3;
+}
+
+.three-ambiente .animation .full-image {
+  padding-top: 620px;
+}
+
 @media (max-width: 767px){
+
+  #movilidad {
+    padding-top: 15px;
+  }
+
+  #movilidad .movilidad-title {
+    margin-bottom: 0px;
+  }
+  #movilidad .movilidad-title p {
+    font-size: 15px;
+  }
+
+  .gif-overlay .mundo-gif {
+    margin-top: 0px;
+  }
+
+  .movilidad-categoria .movilidad-descripcion {
+    width: auto;
+    right: 10px;
+    left: inherit;
+    top: 17px;
+    bottom: inherit;
+  }
+
  .ideologia .slick-dots{
     display: none !important;
   }
 
   .book.slide.not-fixed {
-    background-position: right top !important;
+    background: #0f0e0c;
+    background-image: url('images/book-s.png');
+    background-repeat: no-repeat;
+    background-position: 170px 411px !important;
+    background-size: initial;
+    background-attachment: local;
   }
 
   .nosotros-cover.slide.not-fixed {
@@ -223,5 +280,13 @@ div.wpcf7-mail-sent-ng {
 
   .sensores-ambientales {
     padding-bottom: 240px;
+  }
+
+  .about h4 {
+    font-size: 23px;
+  }
+
+  .three-ambiente .animation .full-image {
+    padding-top: 10px;
   }
 }
