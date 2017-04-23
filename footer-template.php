@@ -18,6 +18,7 @@
             <li><a class="transition-link" href="<?php echo site_url();?>/contacto">Contacto</a></li>
             <li><a class="transition-link" href="<?php echo site_url();?>/trabaja-con-nosotros">Trabaja con nosotros</a></li>
             <li><a class="transition-link" href="<?php echo site_url();?>/smart-central">Smart Central</a></li>
+            <li><a href="https://deceniodeaccion.mx/" target="_blank">Decenio de acción</a></li>
           </ul>
         </div>
         <div class="col-md-4"></div>

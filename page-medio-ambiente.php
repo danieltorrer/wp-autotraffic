@@ -5,7 +5,7 @@
   $(document).ready(function (){
     $('body').removeClass('no-scroll');
 
-    $('.solution-item .solution-description a:not(.button)').click(function(e){
+    $('.solution-item .solution-description a:not(.button):not(.hover-cursor)').click(function(e){
       e.preventDefault();
     })
   });
@@ -243,9 +243,9 @@ paneles solares que cpatura carbono y produce oxígeno</a>
             <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/smart-b.jpg" alt="">
           </div>
           <div class="solution-description">
-            <h4>Plataforma SmartMobility 3.0</h4>
-            <a href="#">Multiplataforma de gestión y procesamiento de datos para la <br>
-movilidad urbana.</a>
+            <a class="hover-cursor" href="<?php echo site_url();?>/smart-central">
+              <h4>Plataforma SmartMobility 3.0 <br></h4>
+              <br>Multiplataforma de gestión y procesamiento de datos para la <br> movilidad urbana.</a>
           </div>
         </div>
       </div>

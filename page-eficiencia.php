@@ -4,7 +4,7 @@
 <script type="text/javascript">
   $(document).ready(function (){
     $('body').removeClass('no-scroll');
-    $('.solution-item .solution-description a:not(.button)').click(function(e){
+    $('.solution-item .solution-description a:not(.button):not(.hover-cursor)').click(function(e){
       e.preventDefault();
     })
   });
@@ -70,7 +70,7 @@
                     <li class="font-title">6.- Medición de contaminantes</li>
                   </ul>
 
-                  <h3 class="font-text white-text">Autotraffic en alianza con una de las empresas más importantes de análisis de datos en el mundo.</h3>
+                  <h3 class="font-text white-text">Autotraffic en alianza con una de las empresas más importantes de análisis de datos.</h3>
                   <br>
                   <p>
                     Cuenta con una base de datos alimentada por cientos de miles de autos conectados con más de 5 años de antigüedad con desplazamientos vehiculares en las principales ciudades del país, esta información es utilizada para realizar estudios de congestionamiento vial y de excesos de velocidad, de esta forma se pueden localizar las intersecciones y los puntos más críticos que deben ser intervenidos directamente. De esta manera es posible conocer el desempeño todos nuestros puntos de Intersecciones Seguras, Eficientes y Medioambientales, a través del análisis de información que es provista de manera gráfica e intuitiva, mediante mapas y reportes, con información histórica y en tiempo real por nuestra plataforma única HORUS, esta plataforma parte de una solución Smart City que simplifica la gestión de infraestructura y movilidad además de que justifica las inversiones en aras de lograr la mayor eficiencia en el desplazamiento de todos los actores que intervienen en las vías de nuestras urbes.
@@ -335,9 +335,9 @@
               <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/smart-b.jpg" alt="">
             </div>
             <div class="solution-description">
-              <h4>Plataforma Smartmobility 3.0</h4>
-              <a href="#">Multiplataforma de gestión y procesamiento de datos para la
-movilidad urbana.</a>
+              <a class="hover-cursor" href="<?php echo site_url();?>/smart-central">
+                <h4>Plataforma SmartMobility 3.0 <br></h4>
+                <br>Multiplataforma de gestión y procesamiento de datos para la <br> movilidad urbana.</a>
             </div>
           </div>
         </div>

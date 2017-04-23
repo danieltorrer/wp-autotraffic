@@ -213,6 +213,50 @@ div.wpcf7-mail-sent-ng {
   padding-top: 620px;
 }
 
+.arrows-container {
+  /*position: relative;*/
+  height: 100px;
+  width: 50%;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  /*position: fixed;*/
+  /*width: 100%;*/
+
+}
+
+.slick-next:before, .slick-prev:before {
+  color: #333 !important;
+}
+
+.slick-prev, .slick-next {
+  z-index: 9999;
+}
+
+.slick-prev {
+  left: 30% !important;
+}
+
+.slick-next {
+  right: 30% !important;
+}
+
+.carousel-main-container {
+  position: relative;
+}
+
+.carousel-main-container .slick-slide > div.row {
+  background: #f1f1f1;
+}
+
+.carousel-main-container .slick-slide > div.row .col-sm-6:first-child{
+  background: #f1f1f1;
+}
+.experiencia h3,
+.carousel-main-container .slick-slide p{
+  margin-left: 15px;
+}
+
 @media (max-width: 767px){
 
   #movilidad {
@@ -288,5 +332,25 @@ div.wpcf7-mail-sent-ng {
 
   .three-ambiente .animation .full-image {
     padding-top: 10px;
+  }
+
+  .arrows-container {
+    /*position: relative;*/
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    /*position: fixed;*/
+    /*width: 100%;*/
+
+  }
+
+  .carousel-main-container {
+    margin-bottom: 30px;
+  }
+
+  .carousel-main-container div.row .col-sm-6:first-child{
+    min-height: 300px;
   }
 }

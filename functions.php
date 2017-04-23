@@ -51,14 +51,37 @@ function html5blank_styles(){
 
 add_filter( 'body_class', 'add_slug_body_class' );
 
-  // function remove_all_theme_styles() {
-  //   // if ( is_page_template('.php') ) {
-  //     global $wp_styles;
-  //     $wp_styles->queue = array();
-  //   // }
-  // }
-  //
-  // add_action('wp_print_styles', 'remove_all_theme_styles', 100);
+// function remove_all_theme_styles() {
+//   // if ( is_page_template('.php') ) {
+//     global $wp_styles;
+//     $wp_styles->queue = array();
+//   // }
+// }
+//
+// add_action('wp_print_styles', 'remove_all_theme_styles', 100);
 add_action('wp_enqueue_scripts', 'html5blank_styles'); // Add Theme Stylesheet
 
-  ?>
+add_action('init', 'customRSS');
+add_filter('the_excerpt_rss', 'rss_post_thumbnail');
+add_filter('the_content_feed', 'rss_post_thumbnail');
+
+
+function rss_post_thumbnail($content) {
+  global $post;
+  if(has_post_thumbnail($post->ID)) {
+    $content = '<div>' . get_the_post_thumbnail( $post->ID, 'medium', array( 'style' => 'margin-bottom: 15px;' ) ) . '</div>' . $content;
+  }
+  return $content;
+}
+
+
+function customRSS(){
+  add_feed('feed', 'customRSSFunc');
+}
+
+function customRSSFunc(){
+  get_template_part('rss', 'feedname');
+}
+
+
+?>

@@ -61,23 +61,33 @@
   <div class="container experiencia">
     <div class="row">
       <div class="col-sm-12">
+
+        <div class="carousel-main-container">
+
+        <div class="arrows-container"></div>
+
         <div class="carrousel carrousel-vertical">
+
           <div class="slide-vertical">
             <div class="row">
               <div class="col-sm-6">
-                <h3 class="font-text">RESULTADOS</h3>
-                <p class="font-title">El 77% de los encuestados prefiere que los excesos de
-                  velocidad sean controlados por un radar que capture
-                  fotografías que por un oficial de tránsito. De éstos, el 60% prefiere a
-                  los radares por su confiabilidad y el 30% por ser un sistema más honesto.</p>
+                <div class="slide-container">
+                  <h3 class="font-text">RESULTADOS</h3>
+                  <p class="font-title">El 77% de los encuestados prefiere que los excesos de
+                    velocidad sean controlados por un radar que capture
+                    fotografías que por un oficial de tránsito. De éstos, el 60% prefiere a
+                    los radares por su confiabilidad y el 30% por ser un sistema más honesto.
+                  </p>
                   <p class="font-title">
-                    El 56% de los encuestados en Guadalajara ha perdicibo la
-                    disminución en accidentes viales a partir de la instalación de radares, el 79% en Puebla y el 39% en Pachuca.
-                    En promedio, el 58% del total de los encuestados opina que hay menos
-                    accidentes desde la instalación de radares que controlan la           velocidad. </p>
-                    <p class="font-title">El 81% se sienten más seguros circulando en vías controladas por radares.</p>
+                      El 56% de los encuestados en Guadalajara ha perdicibo la
+                      disminución en accidentes viales a partir de la instalación de radares, el 79% en Puebla y el 39% en Pachuca.
+                      En promedio, el 58% del total de los encuestados opina que hay menos
+                      accidentes desde la instalación de radares que controlan la           velocidad.
+                  </p>
+                  <p class="font-title">El 81% se sienten más seguros circulando en vías controladas por radares.</p>
 
-                    <p class="hidden-md hidden-lg">Siguiente ➡</p>
+                  </div>
+                    <!-- <p class="hidden-md hidden-lg">Siguiente ➡</p> -->
                 </div>
                 <div class="col-sm-6">
                     <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/resultados-2.jpg" alt="">
@@ -85,61 +95,72 @@
               </div>
             </div>
 
-              <div class="slide-vertical">
+            <div class="slide-vertical">
                 <div class="row">
                   <div class="col-sm-6">
                     <h3 class="font-text">más RESULTADOS</h3>
                     <p class="font-title">El 92% apoya que se infraccione a quienes excedan los límites de velocidad. <br>
                       El 96% opina que el infraccionar a los conductores que exceden el límite de velocidad, traerá beneficios. <br>
-                      El 98.7% de los encuestados está de acuerdo en la implementación de medidas para el control de velocidad en su ciudad. </p>
+                      El 98.7% de los encuestados está de acuerdo en la implementación de medidas para el control de velocidad en su ciudad.
+                    </p>
+                    <!-- <div class="arrows-container">
+
+                    </div> -->
+                    </div>
+                  <div class="col-sm-6">
+                    <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/resultados.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="slide-vertical">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h3 class="font-text">REALIDAD</h3>
+                    <p class="font-title">
+                      Por tres causas princiaples: </p>
+                      <ul>
+                        <li class="font-title">Seguridad vial</li>
+                        <li class="font-title">Contaminación</li>
+                        <li class="font-title">Deficiencia en la transportación de las personas</li>
+                      </ul>
+                      <p class="font-title">
+                        Se pierden: 31,000 vidas al año y el costo que representa suma más de 228 mil millones al año.
+                      </p>
+                      <!-- <div class="arrows-container">
+
+                      </div> -->
                     </div>
                     <div class="col-sm-6">
-                      <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/resultados.jpg" alt="">
+                      <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/peaton.jpg" alt="">
                     </div>
                   </div>
                 </div>
-
-
 
                 <div class="slide-vertical">
                   <div class="row">
                     <div class="col-sm-6">
-                      <h3 class="font-text">REALIDAD</h3>
+                      <h3 class="font-text">EXPERIENCIA</h3>
                       <p class="font-title">
-                        Por tres causas princiaples: </p>
-                        <ul>
-                          <li class="font-title">Seguridad vial</li>
-                          <li class="font-title">Contaminación</li>
-                          <li class="font-title">Deficiencia en la transportación de las personas</li>
-                        </ul>
-                        <p class="font-title">Se pierden: 31,000 vidas al año y el costo que representa suma más de 228 mil millones al año.
-                        </p>
-                      </div>
-                      <div class="col-sm-6">
-                        <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/peaton.jpg" alt="">
-                      </div>
-                    </div>
-                  </div>
+                        Contamos con 13 años de experiencia en la instrumentación de proyectos de foto infracción tanto a nivel estatal como municipal.
+                        Actualmente contamos con 323 sistemas instalados en México para la operación de los proyectos de movilidad.
+                      </p>
+                      <!-- <div class="arrows-container">
 
-                  <div class="slide-vertical">
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <h3 class="font-text">EXPERIENCIA</h3>
-                        <p class="font-title">
-                          Contamos con 13 años de experiencia en la instrumentación de proyectos de foto infracción tanto a nivel estatal como municipal.
-                          Actualmente contamos con 323 sistemas instalados en México para la operación de los proyectos de movilidad.
-                        </p>
-                      </div>
-                      <div class="col-sm-6">
-                        <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/parque-3.jpg" alt="">
-                      </div>
+                      </div> -->
+                    </div>
+                    <div class="col-sm-6">
+                      <img class="full-image" src="<?php echo get_template_directory_uri(); ?>/images/parque-3.jpg" alt="">
                     </div>
                   </div>
+                </div>
 
 
                 </div>
 
-              </div>
+              </div></div>
             </div>
           </div>
 

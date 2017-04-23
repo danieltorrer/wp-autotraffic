@@ -3,7 +3,7 @@
 <script type="text/javascript">
   $(document).ready(function (){
     $('body').removeClass('no-scroll');
-    $('.solution-item .solution-description a:not(.button)').click(function(e){
+    $('.solution-item .solution-description a:not(.button):not(.hover-cursor)').click(function(e){
       e.preventDefault();
     })
   });
@@ -312,8 +312,9 @@
             </div>
 
             <div class="solution-description">
-              <h4>Plataforma SmartMobility 3.0 <br></h4>
-              <a href="#">Multiplataforma de gestión y procesamiento de datos para la movilidad urbana.</a>
+              <a class="hover-cursor" href="<?php echo site_url();?>/smart-central">
+                <h4>Plataforma SmartMobility 3.0 <br></h4>
+                <br>Multiplataforma de gestión y procesamiento de datos para la <br> movilidad urbana.</a>
             </div>
           </div>
         </div>
